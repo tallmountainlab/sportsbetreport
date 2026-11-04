@@ -1,0 +1,14 @@
+# sportsbetreport.com
+
+Daily odds and line-movement report. Static site, rebuilt automatically every morning.
+
+- `fetch_odds.py` – pulls lines (The Odds API if the `ODDS_API_KEY` secret is set, otherwise ESPN's public scoreboard), tracks movement in `data/lines/`, writes `data/reports/YYYY-MM-DD.json`
+- `build.py` – zero-dependency builder, writes `public/` (reports, archive, explainers, pages, sitemap, RSS)
+- `content/guides/*.html` – evergreen explainers; `content/pages/*.html` – about, responsible gambling, disclosure, advertise, terms, privacy
+- `site.json` – settings, sports list, monetization slots (empty = hidden; never a sportsbook link)
+- `.github/workflows/daily-report.yml` – runs both scripts at 12:00 UTC daily and commits the result
+- `.github/workflows/traffic.yml` + `scripts/fetch_traffic.py` – Sundays 09:17 UTC, saves 30 days of Cloudflare traffic to `data/traffic.json` (repo secrets `CF_API_TOKEN`, `CF_ZONE_ID`)
+
+Host: Cloudflare Workers static assets (`wrangler.jsonc` serves `public/`). Connected to the repo with no build command and deploy command `npx wrangler deploy`; every push redeploys.
+Run by hand: GitHub → Actions → Daily odds report → Run workflow.
+Test without network: `python3 fetch_odds.py --from-dir DIR` (DIR holds saved API responses named `<sport>.json`).
