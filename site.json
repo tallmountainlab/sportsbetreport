@@ -8,22 +8,80 @@
   "timezone": "America/New_York",
   "report_window_hours": 36,
   "help_line": "1-800-GAMBLER",
-
   "sports": [
-    {"key": "nfl",   "name": "NFL",   "odds_api": "americanfootball_nfl",   "espn": "football/nfl"},
-    {"key": "ncaaf", "name": "College Football", "odds_api": "americanfootball_ncaaf", "espn": "football/college-football"},
-    {"key": "nba",   "name": "NBA",   "odds_api": "basketball_nba",         "espn": "basketball/nba"},
-    {"key": "nhl",   "name": "NHL",   "odds_api": "icehockey_nhl",          "espn": "hockey/nhl"},
-    {"key": "mlb",   "name": "MLB",   "odds_api": "baseball_mlb",           "espn": "baseball/mlb"}
+    {
+      "key": "nfl",
+      "name": "NFL",
+      "odds_api": "americanfootball_nfl",
+      "espn": "football/nfl"
+    },
+    {
+      "key": "ncaaf",
+      "name": "College Football",
+      "odds_api": "americanfootball_ncaaf",
+      "espn": "football/college-football"
+    },
+    {
+      "key": "nba",
+      "name": "NBA",
+      "odds_api": "basketball_nba",
+      "espn": "basketball/nba"
+    },
+    {
+      "key": "nhl",
+      "name": "NHL",
+      "odds_api": "icehockey_nhl",
+      "espn": "hockey/nhl"
+    },
+    {
+      "key": "mlb",
+      "name": "MLB",
+      "odds_api": "baseball_mlb",
+      "espn": "baseball/mlb"
+    }
   ],
-
   "_comment_monetization": "Armando fills these in. Leave a value empty and that block stays hidden. Never put a sportsbook link here.",
   "newsletter_form_action": "",
   "adsense_client_id": "",
-  "sponsor": {"label": "", "text": "", "url": ""},
+  "sponsor": {
+    "label": "",
+    "text": "",
+    "url": ""
+  },
   "tools": {
-    "odds_tool":   {"label": "Compare live odds with a line-shopping tool", "url": ""},
-    "data_tool":   {"label": "Get deeper betting data and trends", "url": ""},
-    "bankroll":    {"label": "Track your bets and bankroll", "url": ""}
-  }
+    "odds_tool": {
+      "label": "Compare live odds with a line-shopping tool",
+      "url": ""
+    },
+    "data_tool": {
+      "label": "Get deeper betting data and trends",
+      "url": ""
+    },
+    "bankroll": {
+      "label": "Track your bets and bankroll",
+      "url": ""
+    }
+  },
+  "highlights": [
+    {
+      "league": "nfl",
+      "channel_id": "UCDVYQ4Zhbm3S2dlz7P1GBDg",
+      "user": "NFL"
+    },
+    {
+      "league": "nba",
+      "channel_id": "UCWJ2lWNubArHWmf3FIHbfcQ",
+      "user": "NBA"
+    },
+    {
+      "league": "nhl",
+      "channel_id": "UCqFMzb-4AUf6WAIbl132QKA",
+      "user": "NHLVideo"
+    },
+    {
+      "league": "mlb",
+      "channel_id": "UCoLrcjPV5PbUrUyXq5mjc_A",
+      "user": "MLB"
+    }
+  ]
 }

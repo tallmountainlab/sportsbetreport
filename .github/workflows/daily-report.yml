@@ -24,6 +24,8 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python3 fetch_odds.py
+      - name: Collect league highlight videos
+        run: python3 scripts/fetch_highlights.py
       - name: Build the site
         run: python3 build.py
       - name: Publish

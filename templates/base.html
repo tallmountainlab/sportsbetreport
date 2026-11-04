@@ -19,13 +19,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 {{extra_head}}
+<script>try{var t=localStorage.getItem("sbr-team");if(t)document.documentElement.dataset.team=t}catch(e){}</script>
+<script src="/team.js" defer></script>
 </head>
 <body>
 <div class="rg">21+ · Information only, no wagers taken · Gambling problem? Call or text <a href="tel:18004262537">{{help_line}}</a></div>
 <header class="top"><div class="wrap">
   <div class="edition"><span>Morning Edition</span><span>{{edition_date}}</span><span>Free since 2026</span></div>
   <a class="masthead" href="/" aria-label="Sportsbet Report home"><span class="the">The</span> Sportsbet Report</a>
-  <nav><a href="/reports/">The Daily Report</a><a href="/guides/">Explainers</a><a href="/about/">About</a></nav>
+  <nav><a href="/reports/">The Daily Report</a><a href="/guides/">Explainers</a><a href="/about/">About</a>{{team_picker}}</nav>
+  <div id="pennant" class="pennant" hidden></div>
 </div></header>
 <main>
 {{content}}
@@ -33,7 +36,7 @@
 <footer class="foot"><div class="wrap">
   <p class="masthead small-mast"><span class="the">The</span> Sportsbet Report</p>
   <p>{{tagline}}. Published every morning.</p>
-  <p><a href="/about/">About</a> · <a href="/responsible-gambling/">Responsible gambling</a> · <a href="/disclosure/">How we make money</a> · <a href="/advertise/">Advertise</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="mailto:{{contact_email}}">Contact</a> · <a href="/feed.xml">RSS</a></p>
+  <p><a href="/about/">About</a> · <a href="/responsible-gambling/">Responsible gambling</a> · <a href="/disclosure/">How we make money</a> · <a href="/advertise/">Advertise</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/photo-credits/">Photo credits</a> · <a href="mailto:{{contact_email}}">Contact</a> · <a href="/feed.xml">RSS</a></p>
   <p class="small">© {{year}} sportsbetreport.com. For entertainment and information only, not betting, financial or legal advice. We do not accept wagers and do not link to sportsbooks. Odds change and may not match what is offered where you are. Sports betting is illegal in some states, including Utah; know your local laws. You must be 21+ to bet in most states. If you or someone you know has a gambling problem, call or text {{help_line}}.</p>
 </div></footer>
 </body>

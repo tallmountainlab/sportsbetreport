@@ -1,0 +1,1118 @@
+[
+{
+"id": "nfl-arizona-cardinals",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Arizona Cardinals",
+"nick": "Cardinals",
+"primary": "#97233F",
+"secondary": "#FFB612"
+},
+{
+"id": "nfl-atlanta-falcons",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Atlanta Falcons",
+"nick": "Falcons",
+"primary": "#A71930",
+"secondary": "#000000"
+},
+{
+"id": "nfl-baltimore-ravens",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Baltimore Ravens",
+"nick": "Ravens",
+"primary": "#241773",
+"secondary": "#9E7C0C"
+},
+{
+"id": "nfl-buffalo-bills",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Buffalo Bills",
+"nick": "Bills",
+"primary": "#00338D",
+"secondary": "#C60C30"
+},
+{
+"id": "nfl-carolina-panthers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Carolina Panthers",
+"nick": "Panthers",
+"primary": "#0085CA",
+"secondary": "#101820"
+},
+{
+"id": "nfl-chicago-bears",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Chicago Bears",
+"nick": "Bears",
+"primary": "#0B162A",
+"secondary": "#C83803"
+},
+{
+"id": "nfl-cincinnati-bengals",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Cincinnati Bengals",
+"nick": "Bengals",
+"primary": "#FB4F14",
+"secondary": "#000000"
+},
+{
+"id": "nfl-cleveland-browns",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Cleveland Browns",
+"nick": "Browns",
+"primary": "#311D00",
+"secondary": "#FF3C00"
+},
+{
+"id": "nfl-dallas-cowboys",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Dallas Cowboys",
+"nick": "Cowboys",
+"primary": "#003594",
+"secondary": "#869397"
+},
+{
+"id": "nfl-denver-broncos",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Denver Broncos",
+"nick": "Broncos",
+"primary": "#FB4F14",
+"secondary": "#002244"
+},
+{
+"id": "nfl-detroit-lions",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Detroit Lions",
+"nick": "Lions",
+"primary": "#0076B6",
+"secondary": "#B0B7BC"
+},
+{
+"id": "nfl-green-bay-packers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Green Bay Packers",
+"nick": "Packers",
+"primary": "#203731",
+"secondary": "#FFB612"
+},
+{
+"id": "nfl-houston-texans",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Houston Texans",
+"nick": "Texans",
+"primary": "#03202F",
+"secondary": "#A71930"
+},
+{
+"id": "nfl-indianapolis-colts",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Indianapolis Colts",
+"nick": "Colts",
+"primary": "#002C5F",
+"secondary": "#A2AAAD"
+},
+{
+"id": "nfl-jacksonville-jaguars",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Jacksonville Jaguars",
+"nick": "Jaguars",
+"primary": "#006778",
+"secondary": "#D7A22A"
+},
+{
+"id": "nfl-kansas-city-chiefs",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Kansas City Chiefs",
+"nick": "Chiefs",
+"primary": "#E31837",
+"secondary": "#FFB81C"
+},
+{
+"id": "nfl-las-vegas-raiders",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Las Vegas Raiders",
+"nick": "Raiders",
+"primary": "#000000",
+"secondary": "#A5ACAF"
+},
+{
+"id": "nfl-los-angeles-chargers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Los Angeles Chargers",
+"nick": "Chargers",
+"primary": "#0080C6",
+"secondary": "#FFC20E"
+},
+{
+"id": "nfl-los-angeles-rams",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Los Angeles Rams",
+"nick": "Rams",
+"primary": "#003594",
+"secondary": "#FFA300"
+},
+{
+"id": "nfl-miami-dolphins",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Miami Dolphins",
+"nick": "Dolphins",
+"primary": "#008E97",
+"secondary": "#FC4C02"
+},
+{
+"id": "nfl-minnesota-vikings",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Minnesota Vikings",
+"nick": "Vikings",
+"primary": "#4F2683",
+"secondary": "#FFC62F"
+},
+{
+"id": "nfl-new-england-patriots",
+"league": "nfl",
+"league_name": "NFL",
+"name": "New England Patriots",
+"nick": "Patriots",
+"primary": "#002244",
+"secondary": "#C60C30"
+},
+{
+"id": "nfl-new-orleans-saints",
+"league": "nfl",
+"league_name": "NFL",
+"name": "New Orleans Saints",
+"nick": "Saints",
+"primary": "#101820",
+"secondary": "#D3BC8D"
+},
+{
+"id": "nfl-new-york-giants",
+"league": "nfl",
+"league_name": "NFL",
+"name": "New York Giants",
+"nick": "Giants",
+"primary": "#0B2265",
+"secondary": "#A71930"
+},
+{
+"id": "nfl-new-york-jets",
+"league": "nfl",
+"league_name": "NFL",
+"name": "New York Jets",
+"nick": "Jets",
+"primary": "#125740",
+"secondary": "#FFFFFF"
+},
+{
+"id": "nfl-philadelphia-eagles",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Philadelphia Eagles",
+"nick": "Eagles",
+"primary": "#004C54",
+"secondary": "#A5ACAF"
+},
+{
+"id": "nfl-pittsburgh-steelers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Pittsburgh Steelers",
+"nick": "Steelers",
+"primary": "#101820",
+"secondary": "#FFB612"
+},
+{
+"id": "nfl-san-francisco-49ers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "San Francisco 49ers",
+"nick": "49ers",
+"primary": "#AA0000",
+"secondary": "#B3995D"
+},
+{
+"id": "nfl-seattle-seahawks",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Seattle Seahawks",
+"nick": "Seahawks",
+"primary": "#002244",
+"secondary": "#69BE28"
+},
+{
+"id": "nfl-tampa-bay-buccaneers",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Tampa Bay Buccaneers",
+"nick": "Buccaneers",
+"primary": "#D50A0A",
+"secondary": "#34302B"
+},
+{
+"id": "nfl-tennessee-titans",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Tennessee Titans",
+"nick": "Titans",
+"primary": "#0C2340",
+"secondary": "#4B92DB"
+},
+{
+"id": "nfl-washington-commanders",
+"league": "nfl",
+"league_name": "NFL",
+"name": "Washington Commanders",
+"nick": "Commanders",
+"primary": "#5A1414",
+"secondary": "#FFB612"
+},
+{
+"id": "nba-atlanta-hawks",
+"league": "nba",
+"league_name": "NBA",
+"name": "Atlanta Hawks",
+"nick": "Hawks",
+"primary": "#E03A3E",
+"secondary": "#C1D32F"
+},
+{
+"id": "nba-boston-celtics",
+"league": "nba",
+"league_name": "NBA",
+"name": "Boston Celtics",
+"nick": "Celtics",
+"primary": "#007A33",
+"secondary": "#BA9653"
+},
+{
+"id": "nba-brooklyn-nets",
+"league": "nba",
+"league_name": "NBA",
+"name": "Brooklyn Nets",
+"nick": "Nets",
+"primary": "#000000",
+"secondary": "#FFFFFF"
+},
+{
+"id": "nba-charlotte-hornets",
+"league": "nba",
+"league_name": "NBA",
+"name": "Charlotte Hornets",
+"nick": "Hornets",
+"primary": "#1D1160",
+"secondary": "#00788C"
+},
+{
+"id": "nba-chicago-bulls",
+"league": "nba",
+"league_name": "NBA",
+"name": "Chicago Bulls",
+"nick": "Bulls",
+"primary": "#CE1141",
+"secondary": "#000000"
+},
+{
+"id": "nba-cleveland-cavaliers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Cleveland Cavaliers",
+"nick": "Cavaliers",
+"primary": "#860038",
+"secondary": "#FDBB30"
+},
+{
+"id": "nba-dallas-mavericks",
+"league": "nba",
+"league_name": "NBA",
+"name": "Dallas Mavericks",
+"nick": "Mavericks",
+"primary": "#00538C",
+"secondary": "#B8C4CA"
+},
+{
+"id": "nba-denver-nuggets",
+"league": "nba",
+"league_name": "NBA",
+"name": "Denver Nuggets",
+"nick": "Nuggets",
+"primary": "#0E2240",
+"secondary": "#FEC524"
+},
+{
+"id": "nba-detroit-pistons",
+"league": "nba",
+"league_name": "NBA",
+"name": "Detroit Pistons",
+"nick": "Pistons",
+"primary": "#C8102E",
+"secondary": "#1D42BA"
+},
+{
+"id": "nba-golden-state-warriors",
+"league": "nba",
+"league_name": "NBA",
+"name": "Golden State Warriors",
+"nick": "Warriors",
+"primary": "#1D428A",
+"secondary": "#FFC72C"
+},
+{
+"id": "nba-houston-rockets",
+"league": "nba",
+"league_name": "NBA",
+"name": "Houston Rockets",
+"nick": "Rockets",
+"primary": "#CE1141",
+"secondary": "#000000"
+},
+{
+"id": "nba-indiana-pacers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Indiana Pacers",
+"nick": "Pacers",
+"primary": "#002D62",
+"secondary": "#FDBB30"
+},
+{
+"id": "nba-los-angeles-clippers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Los Angeles Clippers",
+"nick": "Clippers",
+"primary": "#C8102E",
+"secondary": "#1D428A"
+},
+{
+"id": "nba-los-angeles-lakers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Los Angeles Lakers",
+"nick": "Lakers",
+"primary": "#552583",
+"secondary": "#FDB927"
+},
+{
+"id": "nba-memphis-grizzlies",
+"league": "nba",
+"league_name": "NBA",
+"name": "Memphis Grizzlies",
+"nick": "Grizzlies",
+"primary": "#5D76A9",
+"secondary": "#12173F"
+},
+{
+"id": "nba-miami-heat",
+"league": "nba",
+"league_name": "NBA",
+"name": "Miami Heat",
+"nick": "Heat",
+"primary": "#98002E",
+"secondary": "#F9A01B"
+},
+{
+"id": "nba-milwaukee-bucks",
+"league": "nba",
+"league_name": "NBA",
+"name": "Milwaukee Bucks",
+"nick": "Bucks",
+"primary": "#00471B",
+"secondary": "#EEE1C6"
+},
+{
+"id": "nba-minnesota-timberwolves",
+"league": "nba",
+"league_name": "NBA",
+"name": "Minnesota Timberwolves",
+"nick": "Timberwolves",
+"primary": "#0C2340",
+"secondary": "#78BE20"
+},
+{
+"id": "nba-new-orleans-pelicans",
+"league": "nba",
+"league_name": "NBA",
+"name": "New Orleans Pelicans",
+"nick": "Pelicans",
+"primary": "#0C2340",
+"secondary": "#C8102E"
+},
+{
+"id": "nba-new-york-knicks",
+"league": "nba",
+"league_name": "NBA",
+"name": "New York Knicks",
+"nick": "Knicks",
+"primary": "#006BB6",
+"secondary": "#F58426"
+},
+{
+"id": "nba-oklahoma-city-thunder",
+"league": "nba",
+"league_name": "NBA",
+"name": "Oklahoma City Thunder",
+"nick": "Thunder",
+"primary": "#007AC1",
+"secondary": "#EF3B24"
+},
+{
+"id": "nba-orlando-magic",
+"league": "nba",
+"league_name": "NBA",
+"name": "Orlando Magic",
+"nick": "Magic",
+"primary": "#0077C0",
+"secondary": "#C4CED4"
+},
+{
+"id": "nba-philadelphia-76ers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Philadelphia 76ers",
+"nick": "76ers",
+"primary": "#006BB6",
+"secondary": "#ED174C"
+},
+{
+"id": "nba-phoenix-suns",
+"league": "nba",
+"league_name": "NBA",
+"name": "Phoenix Suns",
+"nick": "Suns",
+"primary": "#1D1160",
+"secondary": "#E56020"
+},
+{
+"id": "nba-portland-trail-blazers",
+"league": "nba",
+"league_name": "NBA",
+"name": "Portland Trail Blazers",
+"nick": "Trail Blazers",
+"primary": "#E03A3E",
+"secondary": "#000000"
+},
+{
+"id": "nba-sacramento-kings",
+"league": "nba",
+"league_name": "NBA",
+"name": "Sacramento Kings",
+"nick": "Kings",
+"primary": "#5A2D81",
+"secondary": "#63727A"
+},
+{
+"id": "nba-san-antonio-spurs",
+"league": "nba",
+"league_name": "NBA",
+"name": "San Antonio Spurs",
+"nick": "Spurs",
+"primary": "#000000",
+"secondary": "#C4CED4"
+},
+{
+"id": "nba-toronto-raptors",
+"league": "nba",
+"league_name": "NBA",
+"name": "Toronto Raptors",
+"nick": "Raptors",
+"primary": "#CE1141",
+"secondary": "#000000"
+},
+{
+"id": "nba-utah-jazz",
+"league": "nba",
+"league_name": "NBA",
+"name": "Utah Jazz",
+"nick": "Jazz",
+"primary": "#4B2A88",
+"secondary": "#000000"
+},
+{
+"id": "nba-washington-wizards",
+"league": "nba",
+"league_name": "NBA",
+"name": "Washington Wizards",
+"nick": "Wizards",
+"primary": "#002B5C",
+"secondary": "#E31837"
+},
+{
+"id": "nhl-anaheim-ducks",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Anaheim Ducks",
+"nick": "Ducks",
+"primary": "#F47A38",
+"secondary": "#B9975B"
+},
+{
+"id": "nhl-boston-bruins",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Boston Bruins",
+"nick": "Bruins",
+"primary": "#000000",
+"secondary": "#FFB81C"
+},
+{
+"id": "nhl-buffalo-sabres",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Buffalo Sabres",
+"nick": "Sabres",
+"primary": "#003087",
+"secondary": "#FFB81C"
+},
+{
+"id": "nhl-calgary-flames",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Calgary Flames",
+"nick": "Flames",
+"primary": "#C8102E",
+"secondary": "#F1BE48"
+},
+{
+"id": "nhl-carolina-hurricanes",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Carolina Hurricanes",
+"nick": "Hurricanes",
+"primary": "#CC0000",
+"secondary": "#000000"
+},
+{
+"id": "nhl-chicago-blackhawks",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Chicago Blackhawks",
+"nick": "Blackhawks",
+"primary": "#CF0A2C",
+"secondary": "#000000"
+},
+{
+"id": "nhl-colorado-avalanche",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Colorado Avalanche",
+"nick": "Avalanche",
+"primary": "#6F263D",
+"secondary": "#236192"
+},
+{
+"id": "nhl-columbus-blue-jackets",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Columbus Blue Jackets",
+"nick": "Blue Jackets",
+"primary": "#002654",
+"secondary": "#CE1126"
+},
+{
+"id": "nhl-dallas-stars",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Dallas Stars",
+"nick": "Stars",
+"primary": "#006847",
+"secondary": "#8F8F8C"
+},
+{
+"id": "nhl-detroit-red-wings",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Detroit Red Wings",
+"nick": "Red Wings",
+"primary": "#CE1126",
+"secondary": "#FFFFFF"
+},
+{
+"id": "nhl-edmonton-oilers",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Edmonton Oilers",
+"nick": "Oilers",
+"primary": "#041E42",
+"secondary": "#FF4C00"
+},
+{
+"id": "nhl-florida-panthers",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Florida Panthers",
+"nick": "Panthers",
+"primary": "#041E42",
+"secondary": "#C8102E"
+},
+{
+"id": "nhl-los-angeles-kings",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Los Angeles Kings",
+"nick": "Kings",
+"primary": "#111111",
+"secondary": "#A2AAAD"
+},
+{
+"id": "nhl-minnesota-wild",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Minnesota Wild",
+"nick": "Wild",
+"primary": "#154734",
+"secondary": "#A6192E"
+},
+{
+"id": "nhl-montreal-canadiens",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Montreal Canadiens",
+"nick": "Canadiens",
+"primary": "#AF1E2D",
+"secondary": "#192168"
+},
+{
+"id": "nhl-nashville-predators",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Nashville Predators",
+"nick": "Predators",
+"primary": "#041E42",
+"secondary": "#FFB81C"
+},
+{
+"id": "nhl-new-jersey-devils",
+"league": "nhl",
+"league_name": "NHL",
+"name": "New Jersey Devils",
+"nick": "Devils",
+"primary": "#CE1126",
+"secondary": "#000000"
+},
+{
+"id": "nhl-new-york-islanders",
+"league": "nhl",
+"league_name": "NHL",
+"name": "New York Islanders",
+"nick": "Islanders",
+"primary": "#00539B",
+"secondary": "#F47D30"
+},
+{
+"id": "nhl-new-york-rangers",
+"league": "nhl",
+"league_name": "NHL",
+"name": "New York Rangers",
+"nick": "Rangers",
+"primary": "#0038A8",
+"secondary": "#CE1126"
+},
+{
+"id": "nhl-ottawa-senators",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Ottawa Senators",
+"nick": "Senators",
+"primary": "#C52032",
+"secondary": "#000000"
+},
+{
+"id": "nhl-philadelphia-flyers",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Philadelphia Flyers",
+"nick": "Flyers",
+"primary": "#F74902",
+"secondary": "#000000"
+},
+{
+"id": "nhl-pittsburgh-penguins",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Pittsburgh Penguins",
+"nick": "Penguins",
+"primary": "#000000",
+"secondary": "#FCB514"
+},
+{
+"id": "nhl-san-jose-sharks",
+"league": "nhl",
+"league_name": "NHL",
+"name": "San Jose Sharks",
+"nick": "Sharks",
+"primary": "#006D75",
+"secondary": "#EA7200"
+},
+{
+"id": "nhl-seattle-kraken",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Seattle Kraken",
+"nick": "Kraken",
+"primary": "#001628",
+"secondary": "#99D9D9"
+},
+{
+"id": "nhl-st-louis-blues",
+"league": "nhl",
+"league_name": "NHL",
+"name": "St. Louis Blues",
+"nick": "Blues",
+"primary": "#002F87",
+"secondary": "#FCB514"
+},
+{
+"id": "nhl-tampa-bay-lightning",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Tampa Bay Lightning",
+"nick": "Lightning",
+"primary": "#002868",
+"secondary": "#FFFFFF"
+},
+{
+"id": "nhl-toronto-maple-leafs",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Toronto Maple Leafs",
+"nick": "Maple Leafs",
+"primary": "#00205B",
+"secondary": "#FFFFFF"
+},
+{
+"id": "nhl-utah-mammoth",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Utah Mammoth",
+"nick": "Mammoth",
+"primary": "#010101",
+"secondary": "#6CACE4"
+},
+{
+"id": "nhl-vancouver-canucks",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Vancouver Canucks",
+"nick": "Canucks",
+"primary": "#00205B",
+"secondary": "#00843D"
+},
+{
+"id": "nhl-vegas-golden-knights",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Vegas Golden Knights",
+"nick": "Golden Knights",
+"primary": "#333F42",
+"secondary": "#B4975A"
+},
+{
+"id": "nhl-washington-capitals",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Washington Capitals",
+"nick": "Capitals",
+"primary": "#041E42",
+"secondary": "#C8102E"
+},
+{
+"id": "nhl-winnipeg-jets",
+"league": "nhl",
+"league_name": "NHL",
+"name": "Winnipeg Jets",
+"nick": "Jets",
+"primary": "#041E42",
+"secondary": "#004C97"
+},
+{
+"id": "mlb-arizona-diamondbacks",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Arizona Diamondbacks",
+"nick": "Diamondbacks",
+"primary": "#A71930",
+"secondary": "#E3D4AD"
+},
+{
+"id": "mlb-athletics",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Athletics",
+"nick": "Athletics",
+"primary": "#003831",
+"secondary": "#EFB21E"
+},
+{
+"id": "mlb-atlanta-braves",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Atlanta Braves",
+"nick": "Braves",
+"primary": "#13274F",
+"secondary": "#CE1141"
+},
+{
+"id": "mlb-baltimore-orioles",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Baltimore Orioles",
+"nick": "Orioles",
+"primary": "#DF4601",
+"secondary": "#000000"
+},
+{
+"id": "mlb-boston-red-sox",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Boston Red Sox",
+"nick": "Red Sox",
+"primary": "#BD3039",
+"secondary": "#0C2340"
+},
+{
+"id": "mlb-chicago-cubs",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Chicago Cubs",
+"nick": "Cubs",
+"primary": "#0E3386",
+"secondary": "#CC3433"
+},
+{
+"id": "mlb-chicago-white-sox",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Chicago White Sox",
+"nick": "White Sox",
+"primary": "#27251F",
+"secondary": "#C4CED4"
+},
+{
+"id": "mlb-cincinnati-reds",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Cincinnati Reds",
+"nick": "Reds",
+"primary": "#C6011F",
+"secondary": "#000000"
+},
+{
+"id": "mlb-cleveland-guardians",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Cleveland Guardians",
+"nick": "Guardians",
+"primary": "#00385D",
+"secondary": "#E50022"
+},
+{
+"id": "mlb-colorado-rockies",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Colorado Rockies",
+"nick": "Rockies",
+"primary": "#333366",
+"secondary": "#C4CED4"
+},
+{
+"id": "mlb-detroit-tigers",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Detroit Tigers",
+"nick": "Tigers",
+"primary": "#0C2340",
+"secondary": "#FA4616"
+},
+{
+"id": "mlb-houston-astros",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Houston Astros",
+"nick": "Astros",
+"primary": "#002D62",
+"secondary": "#EB6E1F"
+},
+{
+"id": "mlb-kansas-city-royals",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Kansas City Royals",
+"nick": "Royals",
+"primary": "#004687",
+"secondary": "#BD9B60"
+},
+{
+"id": "mlb-los-angeles-angels",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Los Angeles Angels",
+"nick": "Angels",
+"primary": "#BA0021",
+"secondary": "#003263"
+},
+{
+"id": "mlb-los-angeles-dodgers",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Los Angeles Dodgers",
+"nick": "Dodgers",
+"primary": "#005A9C",
+"secondary": "#EF3E42"
+},
+{
+"id": "mlb-miami-marlins",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Miami Marlins",
+"nick": "Marlins",
+"primary": "#00A3E0",
+"secondary": "#EF3340"
+},
+{
+"id": "mlb-milwaukee-brewers",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Milwaukee Brewers",
+"nick": "Brewers",
+"primary": "#12284B",
+"secondary": "#FFC52F"
+},
+{
+"id": "mlb-minnesota-twins",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Minnesota Twins",
+"nick": "Twins",
+"primary": "#002B5C",
+"secondary": "#D31145"
+},
+{
+"id": "mlb-new-york-mets",
+"league": "mlb",
+"league_name": "MLB",
+"name": "New York Mets",
+"nick": "Mets",
+"primary": "#002D72",
+"secondary": "#FF5910"
+},
+{
+"id": "mlb-new-york-yankees",
+"league": "mlb",
+"league_name": "MLB",
+"name": "New York Yankees",
+"nick": "Yankees",
+"primary": "#0C2340",
+"secondary": "#C4CED3"
+},
+{
+"id": "mlb-philadelphia-phillies",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Philadelphia Phillies",
+"nick": "Phillies",
+"primary": "#E81828",
+"secondary": "#002D72"
+},
+{
+"id": "mlb-pittsburgh-pirates",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Pittsburgh Pirates",
+"nick": "Pirates",
+"primary": "#27251F",
+"secondary": "#FDB827"
+},
+{
+"id": "mlb-san-diego-padres",
+"league": "mlb",
+"league_name": "MLB",
+"name": "San Diego Padres",
+"nick": "Padres",
+"primary": "#2F241D",
+"secondary": "#FFC425"
+},
+{
+"id": "mlb-san-francisco-giants",
+"league": "mlb",
+"league_name": "MLB",
+"name": "San Francisco Giants",
+"nick": "Giants",
+"primary": "#27251F",
+"secondary": "#FD5A1E"
+},
+{
+"id": "mlb-seattle-mariners",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Seattle Mariners",
+"nick": "Mariners",
+"primary": "#0C2C56",
+"secondary": "#005C5C"
+},
+{
+"id": "mlb-st-louis-cardinals",
+"league": "mlb",
+"league_name": "MLB",
+"name": "St. Louis Cardinals",
+"nick": "Cardinals",
+"primary": "#C41E3A",
+"secondary": "#0C2340"
+},
+{
+"id": "mlb-tampa-bay-rays",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Tampa Bay Rays",
+"nick": "Rays",
+"primary": "#092C5C",
+"secondary": "#8FBCE6"
+},
+{
+"id": "mlb-texas-rangers",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Texas Rangers",
+"nick": "Rangers",
+"primary": "#003278",
+"secondary": "#C0111F"
+},
+{
+"id": "mlb-toronto-blue-jays",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Toronto Blue Jays",
+"nick": "Blue Jays",
+"primary": "#134A8E",
+"secondary": "#1D2D5C"
+},
+{
+"id": "mlb-washington-nationals",
+"league": "mlb",
+"league_name": "MLB",
+"name": "Washington Nationals",
+"nick": "Nationals",
+"primary": "#AB0003",
+"secondary": "#14225A"
+}
+]

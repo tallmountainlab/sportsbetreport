@@ -12,3 +12,8 @@ Daily odds and line-movement report. Static site, rebuilt automatically every mo
 Host: Cloudflare Workers static assets (`wrangler.jsonc` serves `public/`). Connected to the repo with no build command and deploy command `npx wrangler deploy`; every push redeploys.
 Run by hand: GitHub → Actions → Daily odds report → Run workflow.
 Test without network: `python3 fetch_odds.py --from-dir DIR` (DIR holds saved API responses named `<sport>.json`).
+
+## My team, highlights, photos
+- `data/teams.json` – 124 NFL/NBA/NHL/MLB teams with colors; `static/team.js` re-colors the site and builds the "Your team" box (choice saved in the visitor's browser only).
+- `scripts/fetch_highlights.py` – daily, reads the official league YouTube channel feeds (channels in `site.json` → `highlights`), writes `data/highlights.json`; the sidebar shows the most-watched of the last 10 days.
+- Photos: `data/photo_queries.json` → "Fetch photo candidates" workflow (branch `photo-candidates`) → pick in `data/photos.json` → `scripts/prepare_photos.py <dir>` → `static/img/`. Credits page at `/photo-credits/`.
