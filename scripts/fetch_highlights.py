@@ -3,10 +3,14 @@
 
 Writes data/highlights.json: the last 10 days of videos from each league's
 official channel with view counts, so the site can show the most-watched ones.
-Uses YouTube's public RSS feeds (no key). Never fails the daily run: if a feed
-can't be read, the previous videos for that league are kept.
+Uses the YouTube Data API when the YOUTUBE_API_KEY secret is set (about 8 of
+the free 10,000 daily quota units per run), otherwise the public RSS feeds,
+which YouTube refuses from GitHub's servers. Never fails the daily run: if a
+league can't be read, its previously saved videos are kept.
 """
 import json
+import os
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -25,6 +29,24 @@ def feed(params):
     req = urllib.request.Request("https://www.youtube.com/feeds/videos.xml?" + params, headers=UA)
     with urllib.request.urlopen(req, timeout=30) as r:
         return ET.fromstring(r.read())
+
+
+def from_api(ch, key):
+    api = "https://www.googleapis.com/youtube/v3/"
+    uploads = "UU" + ch["channel_id"][2:]
+    q = urllib.parse.urlencode({"part": "contentDetails,snippet", "playlistId": uploads, "maxResults": 25, "key": key})
+    with urllib.request.urlopen(api + "playlistItems?" + q, timeout=30) as r:
+        items = json.load(r).get("items", [])
+    ids = [i["contentDetails"]["videoId"] for i in items]
+    if not ids:
+        return []
+    q = urllib.parse.urlencode({"part": "statistics", "id": ",".join(ids), "key": key})
+    with urllib.request.urlopen(api + "videos?" + q, timeout=30) as r:
+        stats = {v["id"]: int(v.get("statistics", {}).get("viewCount", 0)) for v in json.load(r).get("items", [])}
+    return [{"league": ch["league"], "id": i["contentDetails"]["videoId"], "title": i["snippet"]["title"],
+             "published": i["contentDetails"].get("videoPublishedAt") or i["snippet"]["publishedAt"],
+             "views": stats.get(i["contentDetails"]["videoId"], 0)} for i in items
+            if i["snippet"].get("title") not in ("Private video", "Deleted video")]
 
 
 def parse(root, league):
@@ -46,10 +68,17 @@ def main():
     old = json.loads(OUT.read_text()) if OUT.exists() else {"videos": []}
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
     videos = []
+    key = os.environ.get("YOUTUBE_API_KEY", "").strip()
     for ch in SITE.get("highlights", []):
         got = None
+        if key:
+            try:
+                got = from_api(ch, key)
+                print(f"{ch['league']}: {len(got)} videos via YouTube Data API")
+            except Exception as e:
+                print(f"{ch['league']}: YouTube Data API failed: {e}")
         for params in (f"channel_id={ch['channel_id']}", f"user={ch.get('user', '')}"):
-            if params.endswith("="):
+            if got is not None or params.endswith("="):
                 continue
             try:
                 root = feed(params)
