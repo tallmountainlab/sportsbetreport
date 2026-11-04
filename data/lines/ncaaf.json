@@ -58,7 +58,7 @@
   "commence": "2026-11-08T00:30:00Z",
   "current": {
    "ml_away": -175,
-   "ml_home": 146,
+   "ml_home": 149,
    "spread": 3.5,
    "total": 56.5
   },
@@ -66,7 +66,7 @@
    {
     "day": "2026-11-04",
     "ml_away": -175,
-    "ml_home": 146,
+    "ml_home": 149,
     "spread": 3.5,
     "total": 56.5
    }
@@ -300,16 +300,16 @@
   "away": "Charlotte 49ers",
   "commence": "2026-11-07T20:30:00Z",
   "current": {
-   "ml_away": 285,
-   "ml_home": -370,
+   "ml_away": 290,
+   "ml_home": -375,
    "spread": -9.0,
    "total": 47.5
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 285,
-    "ml_home": -370,
+    "ml_away": 290,
+    "ml_home": -375,
     "spread": -9.0,
     "total": 47.5
    }
@@ -545,7 +545,7 @@
   "current": {
    "ml_away": 107,
    "ml_home": -130,
-   "spread": -1.5,
+   "spread": -2.0,
    "total": 39.5
   },
   "history": [
@@ -553,7 +553,7 @@
     "day": "2026-11-04",
     "ml_away": 107,
     "ml_home": -130,
-    "spread": -1.5,
+    "spread": -2.0,
     "total": 39.5
    }
   ],
@@ -570,16 +570,16 @@
   "away": "Georgia State Panthers",
   "commence": "2026-11-07T19:30:00Z",
   "current": {
-   "ml_away": 175,
-   "ml_home": -205,
+   "ml_away": 176,
+   "ml_home": -207,
    "spread": -5.0,
    "total": 55.5
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 175,
-    "ml_home": -205,
+    "ml_away": 176,
+    "ml_home": -207,
     "spread": -5.0,
     "total": 55.5
    }
@@ -599,7 +599,7 @@
   "current": {
    "ml_away": 600,
    "ml_home": -900,
-   "spread": -16.5,
+   "spread": -17.0,
    "total": 64.5
   },
   "history": [
@@ -607,7 +607,7 @@
     "day": "2026-11-04",
     "ml_away": 600,
     "ml_home": -900,
-    "spread": -16.5,
+    "spread": -17.0,
     "total": 64.5
    }
   ],
@@ -867,16 +867,16 @@
   "away": "Ball State Cardinals",
   "commence": "2026-11-05T00:00:00Z",
   "current": {
-   "ml_away": 140,
-   "ml_home": -165,
+   "ml_away": 139,
+   "ml_home": -162,
    "spread": -3.5,
    "total": 49.5
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 140,
-    "ml_home": -165,
+    "ml_away": 139,
+    "ml_home": -162,
     "spread": -3.5,
     "total": 49.5
    }
@@ -1031,7 +1031,7 @@
   "current": {
    "ml_away": -3000,
    "ml_home": 1300,
-   "spread": 25.0,
+   "spread": 25.5,
    "total": 53.0
   },
   "history": [
@@ -1039,7 +1039,7 @@
     "day": "2026-11-04",
     "ml_away": -3000,
     "ml_home": 1300,
-    "spread": 25.0,
+    "spread": 25.5,
     "total": 53.0
    }
   ],
@@ -1326,16 +1326,16 @@
   "away": "James Madison Dukes",
   "commence": "2026-11-06T01:00:00Z",
   "current": {
-   "ml_away": -650,
-   "ml_home": 480,
+   "ml_away": -675,
+   "ml_home": 475,
    "spread": 14.5,
    "total": 58.0
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": -650,
-    "ml_home": 480,
+    "ml_away": -675,
+    "ml_home": 475,
     "spread": 14.5,
     "total": 58.0
    }
@@ -1381,7 +1381,7 @@
   "commence": "2026-11-07T20:30:00Z",
   "current": {
    "ml_away": 105,
-   "ml_home": -125,
+   "ml_home": -129,
    "spread": -2.0,
    "total": 44.5
   },
@@ -1389,7 +1389,7 @@
    {
     "day": "2026-11-04",
     "ml_away": 105,
-    "ml_home": -125,
+    "ml_home": -129,
     "spread": -2.0,
     "total": 44.5
    }
@@ -1515,16 +1515,16 @@
   "away": "Western Kentucky Hilltoppers",
   "commence": "2026-11-07T20:30:00Z",
   "current": {
-   "ml_away": -109,
-   "ml_home": -111,
+   "ml_away": -110,
+   "ml_home": -109,
    "spread": 1.0,
    "total": 53.0
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": -109,
-    "ml_home": -111,
+    "ml_away": -110,
+    "ml_home": -109,
     "spread": 1.0,
     "total": 53.0
    }
@@ -1597,7 +1597,7 @@
   "commence": "2026-11-07T18:00:00Z",
   "current": {
    "ml_away": -210,
-   "ml_home": 175,
+   "ml_home": 170,
    "spread": 4.5,
    "total": 62.0
   },
@@ -1605,7 +1605,7 @@
    {
     "day": "2026-11-04",
     "ml_away": -210,
-    "ml_home": 175,
+    "ml_home": 170,
     "spread": 4.5,
     "total": 62.0
    }
