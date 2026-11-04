@@ -1,0 +1,110 @@
+{
+ "oa:1a1782b9fde64acd952ea9fd3aff7d83": {
+  "away": "Ottawa Senators",
+  "commence": "2026-11-05T00:40:00Z",
+  "current": {
+   "ml_away": 110,
+   "ml_home": -130,
+   "spread": -1.5,
+   "total": 6.5
+  },
+  "history": [
+   {
+    "day": "2026-11-04",
+    "ml_away": 110,
+    "ml_home": -130,
+    "spread": -1.5,
+    "total": 6.5
+   }
+  ],
+  "home": "Buffalo Sabres",
+  "open": {
+   "ml_away": 110,
+   "ml_home": -130,
+   "seen": "2026-11-04T06:29+00:00",
+   "spread": -1.5,
+   "total": 6.5
+  }
+ },
+ "oa:7cc07a9c5a886203f238a3fe0b83dfd1": {
+  "away": "Calgary Flames",
+  "commence": "2026-11-05T03:10:00Z",
+  "current": {
+   "ml_away": 117,
+   "ml_home": -140,
+   "spread": -1.5,
+   "total": 6.0
+  },
+  "history": [
+   {
+    "day": "2026-11-04",
+    "ml_away": 117,
+    "ml_home": -140,
+    "spread": -1.5,
+    "total": 6.0
+   }
+  ],
+  "home": "Seattle Kraken",
+  "open": {
+   "ml_away": 117,
+   "ml_home": -140,
+   "seen": "2026-11-04T06:29+00:00",
+   "spread": -1.5,
+   "total": 6.0
+  }
+ },
+ "oa:a3c2f39dce2dbf9e8cb78acce24cd379": {
+  "away": "San Jose Sharks",
+  "commence": "2026-11-05T03:10:00Z",
+  "current": {
+   "ml_away": 134,
+   "ml_home": -155,
+   "spread": -1.5,
+   "total": 6.0
+  },
+  "history": [
+   {
+    "day": "2026-11-04",
+    "ml_away": 134,
+    "ml_home": -155,
+    "spread": -1.5,
+    "total": 6.0
+   }
+  ],
+  "home": "Los Angeles Kings",
+  "open": {
+   "ml_away": 134,
+   "ml_home": -155,
+   "seen": "2026-11-04T06:29+00:00",
+   "spread": -1.5,
+   "total": 6.0
+  }
+ },
+ "oa:bc22bdc8d7cca6b3695672a8ebf84456": {
+  "away": "Chicago Blackhawks",
+  "commence": "2026-11-05T00:40:00Z",
+  "current": {
+   "ml_away": 205,
+   "ml_home": -248,
+   "spread": -1.5,
+   "total": 6.0
+  },
+  "history": [
+   {
+    "day": "2026-11-04",
+    "ml_away": 205,
+    "ml_home": -248,
+    "spread": -1.5,
+    "total": 6.0
+   }
+  ],
+  "home": "Florida Panthers",
+  "open": {
+   "ml_away": 205,
+   "ml_home": -248,
+   "seen": "2026-11-04T06:29+00:00",
+   "spread": -1.5,
+   "total": 6.0
+  }
+ }
+}
