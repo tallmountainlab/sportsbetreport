@@ -1,0 +1,23 @@
+name: Fetch photo candidates
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Space-separated page slugs (blank = all)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/fetch_photos.py ${{ github.event.inputs.slugs }}
+      - run: |
+          git config user.name "photo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -B photo-candidates
+          git add photos
+          git commit -m "Photo candidates from Wikimedia Commons" || exit 0
+          git push -f origin photo-candidates
