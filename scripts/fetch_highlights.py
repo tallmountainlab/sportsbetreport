@@ -3,7 +3,7 @@
 
 Writes data/highlights.json: the last 10 days of videos from each league's
 official channel with view counts, so the site can show the most-watched ones.
-Uses the YouTube Data API when the YOUTUBE_API_KEY secret is set (about 8 of
+Uses the YouTube Data API when the YT_API_KEY secret is set (about 8 of
 the free 10,000 daily quota units per run), otherwise the public RSS feeds,
 which YouTube refuses from GitHub's servers. Never fails the daily run: if a
 league can't be read, its previously saved videos are kept.
@@ -68,7 +68,7 @@ def main():
     old = json.loads(OUT.read_text()) if OUT.exists() else {"videos": []}
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
     videos = []
-    key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    key = os.environ.get("YT_API_KEY", "").strip()
     for ch in SITE.get("highlights", []):
         got = None
         if key:

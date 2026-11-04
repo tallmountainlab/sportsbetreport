@@ -26,7 +26,7 @@ jobs:
         run: python3 fetch_odds.py
       - name: Collect league highlight videos
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
         run: python3 scripts/fetch_highlights.py
       - name: Build the site
         run: python3 build.py
