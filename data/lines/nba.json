@@ -33,7 +33,7 @@
    "ml_away": 180,
    "ml_home": -214,
    "spread": -5.5,
-   "total": 235.0
+   "total": 235.5
   },
   "history": [
    {
@@ -41,7 +41,7 @@
     "ml_away": 180,
     "ml_home": -214,
     "spread": -5.5,
-    "total": 235.0
+    "total": 235.5
    }
   ],
   "home": "New Orleans Pelicans",
@@ -111,18 +111,18 @@
   "away": "Indiana Pacers",
   "commence": "2026-11-05T01:10:00Z",
   "current": {
-   "ml_away": 205,
-   "ml_home": -250,
+   "ml_away": 200,
+   "ml_home": -249,
    "spread": -6.5,
-   "total": 229.5
+   "total": 229.0
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 205,
-    "ml_home": -250,
+    "ml_away": 200,
+    "ml_home": -249,
     "spread": -6.5,
-    "total": 229.5
+    "total": 229.0
    }
   ],
   "home": "Memphis Grizzlies",
@@ -192,18 +192,18 @@
   "away": "Dallas Mavericks",
   "commence": "2026-11-05T02:30:00Z",
   "current": {
-   "ml_away": 400,
+   "ml_away": 409,
    "ml_home": -540,
    "spread": -11.5,
-   "total": 227.5
+   "total": 228.0
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 400,
+    "ml_away": 409,
     "ml_home": -540,
     "spread": -11.5,
-    "total": 227.5
+    "total": 228.0
    }
   ],
   "home": "San Antonio Spurs",
@@ -328,7 +328,7 @@
   "commence": "2026-11-05T00:00:00Z",
   "current": {
    "ml_away": 106,
-   "ml_home": -125,
+   "ml_home": -129,
    "spread": -2.0,
    "total": 217.5
   },
@@ -336,7 +336,7 @@
    {
     "day": "2026-11-04",
     "ml_away": 106,
-    "ml_home": -125,
+    "ml_home": -129,
     "spread": -2.0,
     "total": 217.5
    }

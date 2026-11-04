@@ -30,16 +30,16 @@
   "away": "Calgary Flames",
   "commence": "2026-11-05T03:10:00Z",
   "current": {
-   "ml_away": 117,
-   "ml_home": -140,
+   "ml_away": 115,
+   "ml_home": -136,
    "spread": -1.5,
    "total": 6.0
   },
   "history": [
    {
     "day": "2026-11-04",
-    "ml_away": 117,
-    "ml_home": -140,
+    "ml_away": 115,
+    "ml_home": -136,
     "spread": -1.5,
     "total": 6.0
    }
