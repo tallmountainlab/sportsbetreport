@@ -255,11 +255,15 @@ def main():
     report = {"date": NOW.astimezone(TZ).date().isoformat(),
               "generated": NOW.isoformat(timespec="minutes"), "sports": [], "movers": [], "sources": []}
 
+    if not key and not from_dir:
+        print("ODDS_API_KEY is not set; trying ESPN's public scoreboard instead.")
+    failed = 0
     for sport in SITE["sports"]:
         try:
             games, source = fetch_sport(sport, key, from_dir)
         except Exception as e:  # one bad feed should not sink the report
             print(f"{sport['name']}: fetch failed: {e}")
+            failed += 1
             continue
         games = [g for g in games if parse_time(g["commence"]) > NOW]
         if not games:
@@ -278,6 +282,9 @@ def main():
             report["sources"].append(source)
         print(f"{sport['name']}: {len(games)} upcoming, {len(slate)} on today's slate ({source})")
 
+    if failed == len(SITE["sports"]):
+        # Every feed errored: fail the run so it shows red in GitHub Actions and gets fixed.
+        sys.exit("Every odds feed failed; no report written.")
     report["movers"].sort(key=lambda m: m["size"], reverse=True)
     report["movers"] = report["movers"][:12]
     if not report["sports"] and not report["movers"]:
