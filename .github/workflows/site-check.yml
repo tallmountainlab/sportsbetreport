@@ -15,3 +15,9 @@ jobs:
             curl -sS -A "$UA" -D - -o body.txt -L --max-redirs 3 "$u" | grep -iE "^(HTTP|content-type|location|cf-mitigated|server)" || true
             head -c 600 body.txt; echo
           done
+      - name: Check YouTube feeds
+        run: |
+          for q in "channel_id=UCDVYQ4Zhbm3S2dlz7P1GBDg" "channel_id=UCBR8-60-B28hp2BmDPdntcQ" "playlist_id=UUDVYQ4Zhbm3S2dlz7P1GBDg"; do
+            echo "=== $q"; curl -sS -o f.xml -w "%{http_code}\n" "https://www.youtube.com/feeds/videos.xml?$q"; head -c 300 f.xml; echo
+          done
+          echo "=== youtube.com/@NFL"; curl -sS -o /dev/null -w "%{http_code}\n" https://www.youtube.com/@NFL
