@@ -1,0 +1,17 @@
+name: Site check
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch key URLs the way Google does
+        run: |
+          UA="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+          for u in https://sportsbetreport.com/ https://sportsbetreport.com/robots.txt https://sportsbetreport.com/sitemap.xml https://www.sportsbetreport.com/sitemap.xml; do
+            echo "=== $u"
+            curl -sS -A "$UA" -D - -o body.txt -L --max-redirs 3 "$u" | grep -iE "^(HTTP|content-type|location|cf-mitigated|server)" || true
+            head -c 600 body.txt; echo
+          done
