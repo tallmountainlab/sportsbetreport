@@ -107,6 +107,33 @@
    "total": 235.0
   }
  },
+ "oa:2a76b31e02d1416de069a995589515fc": {
+  "away": "Orlando Magic",
+  "commence": "2026-11-06T02:10:00Z",
+  "current": {
+   "ml_away": -104,
+   "ml_home": -114,
+   "spread": -1.0,
+   "total": 223.5
+  },
+  "history": [
+   {
+    "day": "2026-11-05",
+    "ml_away": -104,
+    "ml_home": -114,
+    "spread": -1.0,
+    "total": 223.5
+   }
+  ],
+  "home": "Phoenix Suns",
+  "open": {
+   "ml_away": -104,
+   "ml_home": -114,
+   "seen": "2026-11-05T12:52+00:00",
+   "spread": -1.0,
+   "total": 223.5
+  }
+ },
  "oa:3469f522ffcacb13f88e6cd297adc110": {
   "away": "Indiana Pacers",
   "commence": "2026-11-05T01:10:00Z",
@@ -285,6 +312,13 @@
     "ml_home": 105,
     "spread": 2.0,
     "total": 234.5
+   },
+   {
+    "day": "2026-11-05",
+    "ml_away": -127,
+    "ml_home": 105,
+    "spread": 2.0,
+    "total": 234.5
    }
   ],
   "home": "Golden State Warriors",
@@ -366,6 +400,13 @@
     "ml_home": -110,
     "spread": -1.0,
     "total": 230.0
+   },
+   {
+    "day": "2026-11-05",
+    "ml_away": -110,
+    "ml_home": -110,
+    "spread": -1.0,
+    "total": 230.0
    }
   ],
   "home": "New York Knicks",
@@ -375,6 +416,33 @@
    "seen": "2026-11-04T06:29+00:00",
    "spread": -1.0,
    "total": 230.0
+  }
+ },
+ "oa:ac38449dd3dfbe1c9b48164b6a41aa83": {
+  "away": "Miami Heat",
+  "commence": "2026-11-06T03:10:00Z",
+  "current": {
+   "ml_away": 230,
+   "ml_home": -280,
+   "spread": -7.5,
+   "total": 235.5
+  },
+  "history": [
+   {
+    "day": "2026-11-05",
+    "ml_away": 230,
+    "ml_home": -280,
+    "spread": -7.5,
+    "total": 235.5
+   }
+  ],
+  "home": "Golden State Warriors",
+  "open": {
+   "ml_away": 230,
+   "ml_home": -280,
+   "seen": "2026-11-05T12:52+00:00",
+   "spread": -7.5,
+   "total": 235.5
   }
  },
  "oa:b2557f74f4d7675ed3b76a4a064e0bc9": {
@@ -447,6 +515,13 @@
     "ml_home": -190,
     "spread": -5.5,
     "total": 230.5
+   },
+   {
+    "day": "2026-11-05",
+    "ml_away": 155,
+    "ml_home": -190,
+    "spread": -5.5,
+    "total": 230.5
    }
   ],
   "home": "Boston Celtics",
@@ -470,6 +545,13 @@
   "history": [
    {
     "day": "2026-11-04",
+    "ml_away": -105,
+    "ml_home": -115,
+    "spread": -1.0,
+    "total": 234.0
+   },
+   {
+    "day": "2026-11-05",
     "ml_away": -105,
     "ml_home": -115,
     "spread": -1.0,
