@@ -58,5 +58,205 @@
   "author": "Joe Haupt from USA",
   "license": "CC BY-SA 2.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "sport-nfl-1": {
+  "from": "sport-nfl/1",
+  "alt": "Black and white photo of football players colliding during a game",
+  "caption": "A football game photographed by Washington's National Photo Company in the early 1900s. Leather helmets, if you were lucky.",
+  "title": "File:Football game LCCN2013645852.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Football_game_LCCN2013645852.jpg",
+  "author": "National Photo Company Collection",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nfl-2": {
+  "from": "sport-nfl/3",
+  "alt": "Navy football players in a scrimmage line on a muddy field at the Polo Grounds",
+  "caption": "Navy practicing on the slippery Polo Grounds turf, November 1923.",
+  "title": "File:Navy practicing in the Polo Grounds, November 23, 1923.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Navy_practicing_in_the_Polo_Grounds,_November_23,_1923.jpg",
+  "author": "New York Daily News",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nfl-3": {
+  "from": "sport-nfl/4",
+  "alt": "Notre Dame and Army players in a pileup before a packed crowd",
+  "caption": "Notre Dame against Army at the Polo Grounds, October 18, 1924, the day of the Four Horsemen.",
+  "title": "File:Notre Dame vs. Army football at Polo Grounds on October 18, 1924 (crop1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Notre_Dame_vs._Army_football_at_Polo_Grounds_on_October_18,_1924_(crop1).jpg",
+  "author": "Pacific and Atlantic",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-ncaaf-1": {
+  "from": "sport-ncaaf/1",
+  "alt": "Wide panorama of a packed Harvard Stadium during a 1903 game",
+  "caption": "Harvard against Dartmouth at Harvard Stadium, November 14, 1903.",
+  "title": "File:Crimson vs. Big Green football game 1903-11-14.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Crimson_vs._Big_Green_football_game_1903-11-14.JPG",
+  "author": "P.E. Chickering & Co.",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-ncaaf-2": {
+  "from": "sport-ncaaf/2",
+  "alt": "Players huddled in blankets on the sideline at a college game",
+  "caption": "Keeping warm on the sideline at a Miami University game against Ohio Wesleyan.",
+  "title": "File:Men in Native American blankets at Miami-Ohio Wesleyan football game 1921 (3190718447).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Men_in_Native_American_blankets_at_Miami-Ohio_Wesleyan_football_game_1921_(3190718447).jpg",
+  "author": "Frank R. Snyder (Miami University Libraries)",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-ncaaf-3": {
+  "from": "sport-ncaaf/3",
+  "alt": "Panorama of the Yale Bowl crowd during the 1914 Harvard game",
+  "caption": "Yale against Harvard at the brand-new Yale Bowl, 1914.",
+  "title": "File:Yale vs harvard game at new haven 1914.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yale_vs_harvard_game_at_new_haven_1914.jpg",
+  "author": "Unknown photographer",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-ncaaf-4": {
+  "from": "sport-ncaaf/6",
+  "alt": "Navy goat and Army mule mascots with handlers on the field",
+  "caption": "The goat and the mule at the Army-Navy game, November 29, 1924.",
+  "title": "File:Mascots at Army-Navy game, 11-29-24 LCCN2016838951 (cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mascots_at_Army-Navy_game,_11-29-24_LCCN2016838951_(cropped).jpg",
+  "author": "National Photo Company Collection",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nba-1": {
+  "from": "sport-nba/1",
+  "alt": "A 1910s women's basketball team posing around a ball",
+  "caption": "A women's basketball team in the 1910s. The game was barely twenty years old.",
+  "title": "File:Womens basketball team 1910.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Womens_basketball_team_1910.jpg",
+  "author": "Unknown photographer",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nba-2": {
+  "from": "sport-nba/3",
+  "alt": "Players diving for a loose ball in a 1951 college basketball game",
+  "caption": "UCLA and USC scramble for the ball in a 1951 Pacific Coast Conference playoff game.",
+  "title": "File:1951 UCLA–USC Pacific Coast Conference basketball playoff game.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1951_UCLA%E2%80%93USC_Pacific_Coast_Conference_basketball_playoff_game.jpg",
+  "author": "Neil Clemans",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nhl-1": {
+  "from": "sport-nhl/1",
+  "alt": "Hockey players battling for the puck on an outdoor rink in St. Moritz",
+  "caption": "Canada against Switzerland on the outdoor ice at St. Moritz, around 1928.",
+  "title": "File:Canada vs. Switzerland ice hockey game in St Moritz, 1928 or 1929 photo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Canada_vs._Switzerland_ice_hockey_game_in_St_Moritz,_1928_or_1929_photo.jpg",
+  "author": "International News Service",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nhl-2": {
+  "from": "sport-nhl/2",
+  "alt": "Players in a pickup hockey game on a frozen park pond",
+  "caption": "A hockey game in High Park, Toronto, from the John Boyd collection.",
+  "title": "File:Hockey game in High Park.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hockey_game_in_High_Park.jpg",
+  "author": "John Boyd Sr.",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nhl-3": {
+  "from": "sport-nhl/3",
+  "alt": "Steel frame of the Montreal Forum under construction in 1924",
+  "caption": "The Montreal Forum going up in 1924. The Canadiens would play there for 72 years.",
+  "title": "File:Forum Montreal.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Forum_Montreal.jpg",
+  "author": "Unknown photographer",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-nhl-4": {
+  "from": "sport-nhl/6",
+  "alt": "Team photo of all the players in the 1934 Ace Bailey benefit game",
+  "caption": "The players in the 1934 Ace Bailey benefit game in Toronto, the first NHL all-star game.",
+  "title": "File:1934 Ace Bailey Game participants.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1934_Ace_Bailey_Game_participants.jpg",
+  "author": "Alexandra Studio, Toronto",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-mlb-1": {
+  "from": "sport-mlb/1",
+  "alt": "Hal Chase at first base in the Polo Grounds with grandstands behind",
+  "caption": "Hal Chase of the White Sox at the Polo Grounds, around 1913.",
+  "title": "File:Hal Chase, Chicago AL, at the Polo Grounds, NY (baseball) LCCN2014693529.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hal_Chase,_Chicago_AL,_at_the_Polo_Grounds,_NY_(baseball)_LCCN2014693529.jpg",
+  "author": "Bain News Service",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-mlb-2": {
+  "from": "sport-mlb/3",
+  "alt": "Packed bleachers at the Polo Grounds during the 1922 World Series",
+  "caption": "The bleachers at the Polo Grounds for the World Series, October 4, 1922.",
+  "title": "File:No Known Restrictions World Series at the Polo Grounds, NY, October 4, 1922, Bain Collection (LOC) (453437813).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_World_Series_at_the_Polo_Grounds,_NY,_October_4,_1922,_Bain_Collection_(LOC)_(453437813).jpg",
+  "author": "Bain Collection (Library of Congress), uploaded by David Shapinsky",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "sport-mlb-3": {
+  "from": "sport-mlb/4",
+  "alt": "Wide view of the Polo Grounds during the 1913 World Series",
+  "caption": "The Polo Grounds during the 1913 World Series between the Giants and the Athletics.",
+  "title": "File:1913-world-series-polo-grounds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1913-world-series-polo-grounds.jpg",
+  "author": "George Grantham Bain",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sport-mlb-4": {
+  "from": "sport-mlb/7",
+  "alt": "Three Yankees players in pinstripes sitting on a dugout bench",
+  "caption": "Sad Sam Jones, Everett Scott and Joe Bush, newly arrived with the Yankees in 1923.",
+  "title": "File:Sad Sam Jones, Everett Scott, Joe Bush, new baseball players with New York AL (baseball) LCCN2014714239.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sad_Sam_Jones,_Everett_Scott,_Joe_Bush,_new_baseball_players_with_New_York_AL_(baseball)_LCCN2014714239.jpg",
+  "author": "Bain News Service",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "vault-newsboy": {
+  "from": "vault/1",
+  "alt": "A smiling six-year-old newsboy in a cap and jacket in 1912",
+  "caption": "Tootsie, a six-year-old newsboy in Washington, D.C., 1912. Lewis Hine's photo of the kids who carried the sports page.",
+  "title": "File:Lewis Hine, Tootsie, six years, newsboy, Washington, D.C., 1912.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hine,_Tootsie,_six_years,_newsboy,_Washington,_D.C.,_1912.jpg",
+  "author": "Lewis Hine",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "vault-newsboys": {
+  "from": "vault/2",
+  "alt": "Two young newsboys standing by a bicycle on a city sidewalk",
+  "caption": "Sonny and Pete, newsboys who started work at 6 in the morning.",
+  "title": "File:Sonny and Pete newsboys.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sonny_and_Pete_newsboys.jpg",
+  "author": "Lewis Hine",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "vault-owens": {
+  "from": "vault/3",
+  "alt": "Jesse Owens in mid-flight during a broad jump at a stadium",
+  "caption": "Jesse Owens in the broad jump, in front of a stadium crowd.",
+  "title": "File:Jesse Owens competes in a broad jump event.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_competes_in_a_broad_jump_event.jpg",
+  "author": "Los Angeles Daily News",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0"
  }
 }

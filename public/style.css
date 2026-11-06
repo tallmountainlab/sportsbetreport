@@ -149,3 +149,38 @@ tr.mine td:first-child{box-shadow:inset 4px 0 0 var(--team)}
 .picker-panel{left:16px;right:16px;transform:none;width:auto;top:auto;margin-top:10px}
 .pennant{padding-right:64px;font-size:18px}
 @media (max-width:700px){.picker-panel{left:0;right:0;margin:0}}
+
+/* ---------- Engagement layout (2026-11-06) ---------- */
+.lbanner{position:relative;margin:2.2em 0 .6em;border-top:3px double var(--rule);padding-top:12px}
+.lbanner img{display:block;width:100%;height:170px;object-fit:cover;filter:grayscale(.35) sepia(.25) contrast(1.05)}
+.lbanner h2{position:absolute;left:0;top:12px;margin:0;border:0;padding:10px 16px;background:var(--paper);font-size:30px;display:flex;align-items:baseline;gap:12px}
+.lb-n{font:700 12px/1 var(--agate);text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.lb-cap{font:400 12px/1.4 var(--agate);color:var(--muted);margin:4px 0 0}
+.credit{font-size:.9em;opacity:.85}.credit a{color:inherit}
+.league h2{margin-top:1.4em}
+.vault{margin-top:2.4em}
+.vault-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.vault-grid figure{margin:0}
+.vault-grid img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;filter:grayscale(.2) sepia(.2);border:6px solid var(--card);box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.vault-grid figcaption{font:400 13px/1.45 var(--agate);color:var(--muted);padding-top:6px}
+.ltiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin:10px 0 6px}
+.ltile{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:120px;padding:12px;color:#fbf8f0;text-decoration:none;background:#2b2620 var(--img) center/cover;overflow:hidden}
+.ltile::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,16,10,.15),rgba(20,16,10,.82));transition:background .2s}
+.ltile:hover::before{background:linear-gradient(180deg,rgba(31,95,63,.3),rgba(20,16,10,.85))}
+.ltile b,.ltile span{position:relative}
+.ltile b{font:900 22px/1.1 var(--display)}
+.ltile span{font:600 12px/1.3 var(--agate);text-transform:uppercase;letter-spacing:.08em;margin-top:4px}
+.toc{border:1px solid var(--rule);background:var(--card);padding:12px 18px;margin:1.4em 0}
+.toc-h{font:700 12px/1.4 var(--agate);text-transform:uppercase;letter-spacing:.12em;margin:0 0 6px;color:var(--muted)}
+.toc ol{margin:0;padding-left:1.3em;font:400 16px/1.6 var(--agate)}
+.prose h2[id]{scroll-margin-top:12px}
+.todaybox{display:flex;flex-direction:column;gap:4px;border:3px double var(--rule);background:var(--card);padding:16px 18px;margin:2em 0;font-family:var(--agate)}
+.todaybox strong{font:900 22px/1.2 var(--display)}
+.todaybox a{font-weight:700}
+.share{font:600 14px/1.5 var(--agate);color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:1.6em 0}
+.share a{border:1px solid var(--rule);padding:3px 12px;text-decoration:none}
+.share a:hover{background:var(--ink);color:var(--paper)}
+.nextread{display:block;border-top:2px solid var(--rule);border-bottom:2px solid var(--rule);padding:14px 0;margin:1.6em 0;text-decoration:none;color:var(--ink);font:900 24px/1.2 var(--display)}
+.nextread span{display:block;font:700 12px/1.4 var(--agate);text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.nextread:hover{color:var(--accent)}
+@media (max-width:640px){.vault-grid{grid-template-columns:1fr}.lbanner img{height:120px}.lbanner h2{font-size:24px}.ltiles{grid-template-columns:repeat(2,1fr)}}

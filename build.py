@@ -208,6 +208,100 @@ def shortcodes(body):
     return body.replace("{{ad}}", ad_slot()).replace("{{newsletter}}", newsletter()).replace("{{sponsor}}", sponsor())
 
 
+def pool(prefix):
+    return [k for k in PHOTOS if k.startswith(prefix)]
+
+
+def daily_pick(keys, day, n=1, salt=0):
+    """Rotate photos by date so each day's edition looks different."""
+    if not keys:
+        return []
+    start = (date.fromisoformat(day).toordinal() + salt) % len(keys) if day else 0
+    return [keys[(start + i) % len(keys)] for i in range(min(n, len(keys)))]
+
+
+def league_banner(key, name, day, games=None):
+    pic = daily_pick(pool(f"sport-{key}-"), day)
+    count = f'<span class="lb-n">{len(games)} game{"s" if len(games) != 1 else ""}</span>' if games is not None else ""
+    if not pic:
+        return f"<h2>{e(name)}</h2>"
+    p = PHOTOS[pic[0]]
+    return (f'<header class="lbanner"><img src="/img/{pic[0]}-sm.jpg" alt="{e(p["alt"])}" loading="lazy" decoding="async">'
+            f'<h2>{e(name)}{count}</h2><p class="lb-cap">{e(p["caption"])} <span class="credit">{credit(p)}</span></p></header>')
+
+
+def vault(day, n=3, title="From the vault"):
+    keys = daily_pick(pool("vault-") + pool("sport-"), day, n, salt=7)
+    if not keys:
+        return ""
+    tiles = "".join(
+        f'<figure><img src="/img/{k}-sm.jpg" alt="{e(PHOTOS[k]["alt"])}" loading="lazy" decoding="async">'
+        f'<figcaption>{e(PHOTOS[k]["caption"])} <span class="credit">{credit(PHOTOS[k])}</span></figcaption></figure>'
+        for k in keys)
+    return (f'<section class="vault"><h2>{e(title)}</h2><p class="muted small">Old photographs from the days when the '
+            f'only line you saw was in the morning paper. A new set every day.</p><div class="vault-grid">{tiles}</div></section>')
+
+
+def league_tiles(r):
+    """Photo tiles for each league on today's board, linking into the report."""
+    tiles = []
+    for s in r["sports"]:
+        pic = daily_pick(pool(f"sport-{s['key']}-"), r["date"])
+        style = f' style="--img:url(/img/{pic[0]}-sm.jpg)"' if pic else ""
+        n = len(s["games"])
+        tiles.append(f'<a class="ltile" href="/reports/{r["date"]}/#{e(s["key"])}"{style}><b>{e(s["name"])}</b>'
+                     f'<span>{n} game{"s" if n != 1 else ""} on the board</span></a>')
+    return '<div class="ltiles">' + "".join(tiles) + "</div>" if tiles else ""
+
+
+def slugify(t):
+    t = re.sub(r"<[^>]+>", "", html.unescape(t)).lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-") or "section"
+
+
+def add_toc(body):
+    toc, used = [], set()
+
+    def fix(m):
+        attrs, inner = m.group(1), m.group(2)
+        hid = slugify(inner)
+        while hid in used:
+            hid += "-2"
+        used.add(hid)
+        toc.append((hid, re.sub(r"<[^>]+>", "", inner)))
+        return f'<h2{attrs} id="{hid}">{inner}</h2>' if "id=" not in attrs else m.group(0)
+
+    body = re.sub(r"<h2([^>]*)>(.*?)</h2>", fix, body, flags=re.S)
+    box = ("" if len(toc) < 3 else '<nav class="toc"><p class="toc-h">In this explainer</p><ol>'
+           + "".join(f'<li><a href="#{i}">{e(t)}</a></li>' for i, t in toc) + "</ol></nav>")
+    return body, box
+
+
+def read_min(body):
+    return max(1, round(len(re.sub(r"<[^>]+>", " ", body).split()) / 220))
+
+
+def share_row(title, path):
+    from urllib.parse import quote
+    u, t = quote(SITE["url"] + path, safe=""), quote(title, safe="")
+    links = (("X", f"https://x.com/intent/post?url={u}&text={t}"),
+             ("Facebook", f"https://www.facebook.com/sharer/sharer.php?u={u}"),
+             ("Reddit", f"https://www.reddit.com/submit?url={u}&title={t}"),
+             ("Email", f"mailto:?subject={t}&body={u}"))
+    return ('<p class="share"><span>Pass it along:</span> '
+            + " ".join(f'<a href="{h}" target="_blank" rel="noopener">{n}</a>' for n, h in links) + "</p>")
+
+
+def today_box(latest):
+    if not latest:
+        return ""
+    n = sum(len(s["games"]) for s in latest["sports"])
+    return (f'<aside class="todaybox"><span class="kicker">Today\'s edition</span>'
+            f'<strong>{long_date(latest["date"])}: {n} games on the board</strong>'
+            f'<span>{e(summary(latest).split(". ")[0].rstrip("."))}.</span>'
+            f'<a href="/reports/{latest["date"]}/">Read the morning line &rarr;</a></aside>')
+
+
 SAFE_NOTE = ('<p class="note"><strong>Information only, 21+.</strong> Lines change constantly and may differ '
              "where you are. Sports betting is not legal in every state. We do not take bets or link to "
              f'sportsbooks. If gambling stops being fun, call or text <strong>{e(SITE["help_line"])}</strong> '
@@ -287,7 +381,7 @@ def movers_table(movers, limit=8):
             '<th class="num">Pts</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table></div>")
 
 
-def sport_table(s):
+def sport_table(s, day=""):
     rows = []
     for g in s["games"]:
         best = ""
@@ -306,7 +400,7 @@ def sport_table(s):
             f"<td data-l=\"Total\"><span>{pts(g['total'], False)}<span class=\"sub\">Move {move_html(g['move_total'], 't')}</span></span></td>"
             f"<td data-l=\"ML away / home\">{ml(g['ml_away'])} / {ml(g['ml_home'])}</td>"
             f"<td data-l=\"Win % away / home\">{pct(g['prob_away'])} / {pct(g['prob_home'])}</td></tr>")
-    return (f'<section class="league" id="{e(s["key"])}"><h2>{e(s["name"])}</h2>'
+    return (f'<section class="league" id="{e(s["key"])}">{league_banner(s["key"], s["name"], day, s["games"])}'
             '<div class="tbl"><table><thead><tr><th>Time</th><th>Matchup</th><th>Spread</th><th>Total</th>'
             '<th>ML away / home</th><th>Win % away / home</th></tr></thead><tbody>'
             + "".join(rows) + "</tbody></table></div></section>")
@@ -332,11 +426,12 @@ def report_page(r, prev, nxt):
         + f'<h2>The big movers since the opening line</h2>{movers_table(r["movers"])}'
         f"{ad_slot()}"
         + (f'<p class="jump">Jump to: {jump}</p>' if jump else "")
-        + "".join(sport_table(s) for s in r["sports"])
+        + "".join(sport_table(s, r["date"]) for s in r["sports"])
         + '<p class="muted small">Spread shows the favorite. Totals are points or goals for both teams combined. '
         "Win % is the moneyline's implied probability with the bookmaker margin removed. "
         "Moves are measured from the first line we recorded for the game.</p>"
-        f"{SAFE_NOTE}{newsletter()}{nav}</article>{highlights_aside(10)}</div>")
+        f"{share_row('Odds report for ' + short_date(r['date']), '/reports/' + r['date'] + '/')}"
+        f"{SAFE_NOTE}{newsletter()}{nav}{vault(r['date'])}</article>{highlights_aside(10)}</div>")
 
 
 # ---------------------------------------------------------------- shared
@@ -431,15 +526,21 @@ def main():
     guides = [parse(p) for p in (ROOT / "content" / "guides").glob("*.html")]
     guides = [g for g in guides if g.get("draft", "").lower() != "true"]
     guides.sort(key=lambda g: (g.get("order", "9"), g["title"]))
-    for g in guides:
+    latest = reports[-1] if reports else None
+    for gi, g in enumerate(guides):
+        body, toc = add_toc(shortcodes(g["body"]))
+        nxt_g = guides[(gi + 1) % len(guides)] if len(guides) > 1 else None
         ld = {"@context": "https://schema.org", "@type": "Article", "headline": g["title"],
               "description": g.get("description", ""), "datePublished": g.get("date"), "dateModified": g["updated"],
               "publisher": {"@type": "Organization", "name": SITE["name"]}}
         content = (f'<article class="post"><p class="kicker">{e(g.get("category", "Guide"))}</p>'
                    f'<h1>{e(g["title"])}</h1><p class="lede">{e(g.get("description", ""))}</p>'
-                   f'{figure(g.get("image", ""), "photo cover", eager=True)}'
-                   f'{ad_slot()}<div class="prose">{shortcodes(g["body"])}</div>{SAFE_NOTE}{newsletter()}'
-                   '<h2 class="more">More explainers</h2><div class="grid">'
+                   f'<p class="meta">{read_min(g["body"])} min read</p>'
+                   f'{figure(g.get("image", ""), "photo cover", eager=True)}{toc}'
+                   f'{ad_slot()}<div class="prose">{body}</div>{today_box(latest)}'
+                   f'{share_row(g["title"], "/guides/" + g["slug"] + "/")}{SAFE_NOTE}{newsletter()}'
+                   + (f'<a class="nextread" href="/guides/{nxt_g["slug"]}/"><span>Next explainer &rarr;</span>{e(nxt_g["title"])}</a>' if nxt_g else "")
+                   + '<h2 class="more">More explainers</h2><div class="grid">'
                    + "".join(guide_card(x) for x in guides if x["slug"] != g["slug"]) + "</div></article>")
         write(f"guides/{g['slug']}/index.html", render(
             g["title"], g.get("description", ""), content, f"/guides/{g['slug']}/",
@@ -458,7 +559,8 @@ def main():
                f'<h1>{e(summary(latest).split(". ")[0].rstrip("."))}.</h1>'
                f'<p class="lede">{e(". ".join(summary(latest).split(". ")[1:]))}</p>'
                f'<a class="btn" href="/reports/{latest["date"]}/">Read today\'s full report</a>')
-        movers = f'<h2>The big movers</h2>{movers_table(latest["movers"], 6)}'
+        movers = (f'<h2>Today\'s board</h2>{league_tiles(latest)}'
+                  f'<h2>The big movers</h2>{movers_table(latest["movers"], 6)}')
     else:
         top = ('<p class="kicker">The morning line</p><h1>The sports page you grew up with, back on the kitchen table.</h1>'
                '<p class="lede">Remember checking the lines in the Sunday paper before kickoff? Every morning we do it for you: '
@@ -476,7 +578,7 @@ def main():
             + (f'<h2>Recent editions</h2><div class="rows">{"".join(report_card(r) for r in reversed(reports[-7:]))}</div>'
                '<p><a href="/reports/">Full archive &rarr;</a></p>' if reports else "")
             + f'{newsletter()}<h2>From the explainer desk</h2><div class="grid">{"".join(guide_card(g) for g in guides[:6])}</div>'
-            f"{ad_slot()}{SAFE_NOTE}</section>{highlights_aside(8)}</div>")
+            f"{vault(latest['date'] if latest else date.today().isoformat(), 3)}{ad_slot()}{SAFE_NOTE}</section>{highlights_aside(8)}</div>")
     write("index.html", render(SITE["name"], SITE["description"], home, "/"))
 
     pages = list((ROOT / "content" / "pages").glob("*.html"))
