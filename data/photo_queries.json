@@ -1,8 +1,68 @@
 {
-  "home": ["vintage American football game 1950s", "old baseball stadium crowd 1940s", "Ebbets Field"],
-  "how-to-read-betting-odds": ["man reading newspaper 1950s", "newspaper stand vintage", "sports page newspaper"],
-  "line-movement-explained": ["Las Vegas sportsbook board", "old manual scoreboard baseball", "Fenway Park Green Monster scoreboard"],
-  "implied-probability-and-the-vig": ["vintage baseball cards", "county fair midway games", "mechanical adding machine"],
-  "betting-budget-and-responsible-play": ["family watching television 1950s", "football fans stands vintage", "piggy bank"],
-  "history-of-the-point-spread": ["Fremont Street Las Vegas 1950s", "Wrigley Field 1940s", "vintage radio 1940s"]
+  "home": [
+    "vintage American football game 1950s",
+    "old baseball stadium crowd 1940s",
+    "Ebbets Field"
+  ],
+  "how-to-read-betting-odds": [
+    "man reading newspaper 1950s",
+    "newspaper stand vintage",
+    "sports page newspaper"
+  ],
+  "line-movement-explained": [
+    "Las Vegas sportsbook board",
+    "old manual scoreboard baseball",
+    "Fenway Park Green Monster scoreboard"
+  ],
+  "implied-probability-and-the-vig": [
+    "vintage baseball cards",
+    "county fair midway games",
+    "mechanical adding machine"
+  ],
+  "betting-budget-and-responsible-play": [
+    "family watching television 1950s",
+    "football fans stands vintage",
+    "piggy bank"
+  ],
+  "history-of-the-point-spread": [
+    "Fremont Street Las Vegas 1950s",
+    "Wrigley Field 1940s",
+    "vintage radio 1940s"
+  ],
+  "sport-nfl": [
+    "American football game 1920s",
+    "Polo Grounds football game",
+    "professional football 1930s players",
+    "football game crowd 1940s"
+  ],
+  "sport-ncaaf": [
+    "college football game 1900s",
+    "Harvard Yale football game",
+    "Rose Bowl game 1920s",
+    "Army Navy game 1920s"
+  ],
+  "sport-nba": [
+    "basketball game 1920s",
+    "basketball team 1910s",
+    "basketball game 1950s",
+    "Madison Square Garden 1940s"
+  ],
+  "sport-nhl": [
+    "ice hockey game 1920s",
+    "Montreal Forum hockey",
+    "hockey players 1910s",
+    "ice hockey game 1950s"
+  ],
+  "sport-mlb": [
+    "Polo Grounds baseball 1910s",
+    "baseball game crowd 1920s",
+    "World Series 1910s",
+    "baseball players Bain collection"
+  ],
+  "vault": [
+    "newsboy newspapers 1910s",
+    "World Series scoreboard crowd street",
+    "radio broadcast 1930s family listening",
+    "stadium crowd 1930s"
+  ]
 }
