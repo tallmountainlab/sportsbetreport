@@ -3,10 +3,10 @@
   "away": "East Carolina Pirates",
   "commence": "2026-11-14T18:00:00Z",
   "current": {
-   "ml_away": -470,
-   "ml_home": 364,
-   "spread": 12.0,
-   "total": 45.0
+   "ml_away": -450,
+   "ml_home": 350,
+   "spread": 11.5,
+   "total": 45.5
   },
   "history": [
    {
@@ -36,6 +36,13 @@
     "ml_home": 364,
     "spread": 12.0,
     "total": 45.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -450,
+    "ml_home": 350,
+    "spread": 11.5,
+    "total": 45.5
    }
   ],
   "home": "Charlotte 49ers",
@@ -51,8 +58,8 @@
   "away": "Florida Atlantic Owls",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 177,
-   "ml_home": -215,
+   "ml_away": 180,
+   "ml_home": -218,
    "spread": -5.5,
    "total": 74.5
   },
@@ -84,6 +91,13 @@
     "ml_home": -215,
     "spread": -5.5,
     "total": 74.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 180,
+    "ml_home": -218,
+    "spread": -5.5,
+    "total": 74.5
    }
   ],
   "home": "Tulsa Golden Hurricane",
@@ -111,6 +125,13 @@
     "ml_home": 164,
     "spread": 5.5,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -198,
+    "ml_home": 164,
+    "spread": 5.5,
+    "total": 47.5
    }
   ],
   "home": "Nebraska Cornhuskers",
@@ -126,10 +147,10 @@
   "away": "Cincinnati Bearcats",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": 130,
-   "ml_home": -155,
+   "ml_away": 124,
+   "ml_home": -147,
    "spread": -3.0,
-   "total": 59.5
+   "total": 59.0
   },
   "history": [
    {
@@ -166,6 +187,13 @@
     "ml_home": -155,
     "spread": -3.0,
     "total": 59.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 124,
+    "ml_home": -147,
+    "spread": -3.0,
+    "total": 59.0
    }
   ],
   "home": "Iowa State Cyclones",
@@ -181,8 +209,8 @@
   "away": "Kentucky Wildcats",
   "commence": "2026-11-22T00:30:00Z",
   "current": {
-   "ml_away": 174,
-   "ml_home": -208,
+   "ml_away": 180,
+   "ml_home": -220,
    "spread": -6.0,
    "total": 50.0
   },
@@ -191,6 +219,13 @@
     "day": "2026-11-12",
     "ml_away": 174,
     "ml_home": -208,
+    "spread": -6.0,
+    "total": 50.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 180,
+    "ml_home": -220,
     "spread": -6.0,
     "total": 50.0
    }
@@ -208,8 +243,8 @@
   "away": "LSU Tigers",
   "commence": "2026-11-21T20:30:00Z",
   "current": {
-   "ml_away": -129,
-   "ml_home": 109,
+   "ml_away": -128,
+   "ml_home": 107,
    "spread": 2.0,
    "total": 48.5
   },
@@ -218,6 +253,13 @@
     "day": "2026-11-12",
     "ml_away": -129,
     "ml_home": 109,
+    "spread": 2.0,
+    "total": 48.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -128,
+    "ml_home": 107,
     "spread": 2.0,
     "total": 48.5
    }
@@ -231,13 +273,40 @@
    "total": 48.5
   }
  },
+ "oa:0d8cfafd3da8fead51df5ec2e33e9382": {
+  "away": "Eastern Michigan Eagles",
+  "commence": "2026-11-18T00:00:00Z",
+  "current": {
+   "ml_away": 440,
+   "ml_home": -580,
+   "spread": -13.5,
+   "total": 46.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 440,
+    "ml_home": -580,
+    "spread": -13.5,
+    "total": 46.5
+   }
+  ],
+  "home": "Western Michigan Broncos",
+  "open": {
+   "ml_away": 440,
+   "ml_home": -580,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -13.5,
+   "total": 46.5
+  }
+ },
  "oa:0da9451fe176ce110bdcf79c077bb223": {
   "away": "USC Trojans",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 303,
-   "ml_home": -380,
-   "spread": -10.0,
+   "ml_away": 267,
+   "ml_home": -330,
+   "spread": -8.5,
    "total": 50.5
   },
   "history": [
@@ -296,6 +365,13 @@
     "ml_home": -380,
     "spread": -10.0,
     "total": 50.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 267,
+    "ml_home": -330,
+    "spread": -8.5,
+    "total": 50.5
    }
   ],
   "home": "Indiana Hoosiers",
@@ -311,9 +387,9 @@
   "away": "Missouri Tigers",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 517,
+   "ml_away": 525,
    "ml_home": -750,
-   "spread": -15.5,
+   "spread": -16.0,
    "total": 47.5
   },
   "history": [
@@ -372,6 +448,13 @@
     "ml_home": -750,
     "spread": -15.5,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 525,
+    "ml_home": -750,
+    "spread": -16.0,
+    "total": 47.5
    }
   ],
   "home": "Georgia Bulldogs",
@@ -387,10 +470,10 @@
   "away": "Arizona State Sun Devils",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 135,
-   "ml_home": -160,
+   "ml_away": 134,
+   "ml_home": -156,
    "spread": -3.0,
-   "total": 49.0
+   "total": 48.5
   },
   "history": [
    {
@@ -427,6 +510,13 @@
     "ml_home": -160,
     "spread": -3.0,
     "total": 49.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 134,
+    "ml_home": -156,
+    "spread": -3.0,
+    "total": 48.5
    }
   ],
   "home": "UCF Knights",
@@ -436,6 +526,33 @@
    "seen": "2026-11-08T12:34+00:00",
    "spread": -2.5,
    "total": 51.5
+  }
+ },
+ "oa:10cec4ab386b12694dd3cee93d870b47": {
+  "away": "Central Michigan Chippewas",
+  "commence": "2026-11-19T00:30:00Z",
+  "current": {
+   "ml_away": 116,
+   "ml_home": -138,
+   "spread": -2.5,
+   "total": 43.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 116,
+    "ml_home": -138,
+    "spread": -2.5,
+    "total": 43.5
+   }
+  ],
+  "home": "Buffalo Bulls",
+  "open": {
+   "ml_away": 116,
+   "ml_home": -138,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -2.5,
+   "total": 43.5
   }
  },
  "oa:13916d6f26b193abfc3367d80f27e64c": {
@@ -478,6 +595,13 @@
    },
    {
     "day": "2026-11-12",
+    "ml_away": 637,
+    "ml_home": -950,
+    "spread": -17.5,
+    "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
     "ml_away": 637,
     "ml_home": -950,
     "spread": -17.5,
@@ -537,6 +661,13 @@
     "ml_home": 490,
     "spread": 15.0,
     "total": 52.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -675,
+    "ml_home": 490,
+    "spread": 15.0,
+    "total": 52.0
    }
   ],
   "home": "Rutgers Scarlet Knights",
@@ -564,6 +695,13 @@
     "ml_home": -108,
     "spread": 1.5,
     "total": 55.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -112,
+    "ml_home": -108,
+    "spread": 1.5,
+    "total": 55.5
    }
   ],
   "home": "Baylor Bears",
@@ -579,8 +717,8 @@
   "away": "Southern Mississippi Golden Eagles",
   "commence": "2026-11-14T22:00:00Z",
   "current": {
-   "ml_away": 630,
-   "ml_home": -950,
+   "ml_away": 600,
+   "ml_home": -900,
    "spread": -17.5,
    "total": 56.5
   },
@@ -612,6 +750,13 @@
     "ml_home": -950,
     "spread": -17.5,
     "total": 56.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 600,
+    "ml_home": -900,
+    "spread": -17.5,
+    "total": 56.5
    }
   ],
   "home": "Louisiana Tech Bulldogs",
@@ -627,8 +772,8 @@
   "away": "Boston College Eagles",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 1700,
-   "ml_home": -5000,
+   "ml_away": 1900,
+   "ml_home": -6061,
    "spread": -29.5,
    "total": 52.5
   },
@@ -667,6 +812,13 @@
     "ml_home": -5000,
     "spread": -29.5,
     "total": 52.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 1900,
+    "ml_home": -6061,
+    "spread": -29.5,
+    "total": 52.5
    }
   ],
   "home": "Notre Dame Fighting Irish",
@@ -682,10 +834,10 @@
   "away": "Wyoming Cowboys",
   "commence": "2026-11-15T03:00:00Z",
   "current": {
-   "ml_away": -325,
-   "ml_home": 263,
+   "ml_away": -322,
+   "ml_home": 260,
    "spread": 8.0,
-   "total": 39.5
+   "total": 40.5
   },
   "history": [
    {
@@ -715,6 +867,13 @@
     "ml_home": 263,
     "spread": 8.0,
     "total": 39.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -322,
+    "ml_home": 260,
+    "spread": 8.0,
+    "total": 40.5
    }
   ],
   "home": "UTEP Miners",
@@ -731,9 +890,9 @@
   "commence": "2026-11-14T19:00:00Z",
   "current": {
    "ml_away": 310,
-   "ml_home": -405,
+   "ml_home": -400,
    "spread": -10.5,
-   "total": 45.0
+   "total": 44.5
   },
   "history": [
    {
@@ -770,6 +929,13 @@
     "ml_home": -405,
     "spread": -10.5,
     "total": 45.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 310,
+    "ml_home": -400,
+    "spread": -10.5,
+    "total": 44.5
    }
   ],
   "home": "TCU Horned Frogs",
@@ -788,7 +954,7 @@
    "ml_away": 142,
    "ml_home": -165,
    "spread": -3.5,
-   "total": 73.0
+   "total": 73.5
   },
   "history": [
    {
@@ -846,6 +1012,13 @@
     "ml_home": -165,
     "spread": -3.5,
     "total": 73.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 142,
+    "ml_home": -165,
+    "spread": -3.5,
+    "total": 73.5
    }
   ],
   "home": "Oklahoma State Cowboys",
@@ -862,9 +1035,9 @@
   "commence": "2026-11-15T00:00:00Z",
   "current": {
    "ml_away": -170,
-   "ml_home": 142,
+   "ml_home": 147,
    "spread": 3.5,
-   "total": 60.0
+   "total": 58.5
   },
   "history": [
    {
@@ -922,6 +1095,13 @@
     "ml_home": 142,
     "spread": 3.5,
     "total": 60.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -170,
+    "ml_home": 147,
+    "spread": 3.5,
+    "total": 58.5
    }
   ],
   "home": "North Carolina Tar Heels",
@@ -937,8 +1117,8 @@
   "away": "Northwestern Wildcats",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": 446,
-   "ml_home": -600,
+   "ml_away": 437,
+   "ml_home": -585,
    "spread": -14.0,
    "total": 44.0
   },
@@ -991,6 +1171,13 @@
     "ml_home": -600,
     "spread": -14.0,
     "total": 44.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 437,
+    "ml_home": -585,
+    "spread": -14.0,
+    "total": 44.0
    }
   ],
   "home": "Ohio State Buckeyes",
@@ -1009,7 +1196,7 @@
    "ml_away": -135,
    "ml_home": 115,
    "spread": 2.5,
-   "total": 43.5
+   "total": 44.0
   },
   "history": [
    {
@@ -1046,6 +1233,13 @@
     "ml_home": 115,
     "spread": 2.5,
     "total": 43.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -135,
+    "ml_home": 115,
+    "spread": 2.5,
+    "total": 44.0
    }
   ],
   "home": "Texas A&M Aggies",
@@ -1061,10 +1255,10 @@
   "away": "Michigan Wolverines",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": 334,
-   "ml_home": -440,
-   "spread": -11.0,
-   "total": 38.0
+   "ml_away": 330,
+   "ml_home": -425,
+   "spread": -10.5,
+   "total": 38.5
   },
   "history": [
    {
@@ -1122,6 +1316,13 @@
     "ml_home": -440,
     "spread": -11.0,
     "total": 38.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 330,
+    "ml_home": -425,
+    "spread": -10.5,
+    "total": 38.5
    }
   ],
   "home": "Oregon Ducks",
@@ -1138,9 +1339,9 @@
   "commence": "2026-11-14T22:30:00Z",
   "current": {
    "ml_away": 120,
-   "ml_home": -145,
+   "ml_home": -142,
    "spread": -3.0,
-   "total": 67.5
+   "total": 68.0
   },
   "history": [
    {
@@ -1177,6 +1378,13 @@
     "ml_home": -145,
     "spread": -3.0,
     "total": 67.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 120,
+    "ml_home": -142,
+    "spread": -3.0,
+    "total": 68.0
    }
   ],
   "home": "West Virginia Mountaineers",
@@ -1254,9 +1462,9 @@
   "away": "Kennesaw State Owls",
   "commence": "2026-11-14T19:00:00Z",
   "current": {
-   "ml_away": -290,
-   "ml_home": 235,
-   "spread": 7.5,
+   "ml_away": -278,
+   "ml_home": 225,
+   "spread": 7.0,
    "total": 46.5
   },
   "history": [
@@ -1286,6 +1494,13 @@
     "ml_away": -290,
     "ml_home": 235,
     "spread": 7.5,
+    "total": 46.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -278,
+    "ml_home": 225,
+    "spread": 7.0,
     "total": 46.5
    }
   ],
@@ -1335,6 +1550,13 @@
     "ml_home": 100,
     "spread": 1.5,
     "total": 54.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -120,
+    "ml_home": 100,
+    "spread": 1.5,
+    "total": 54.0
    }
   ],
   "home": "Marshall Thundering Herd",
@@ -1346,6 +1568,33 @@
    "total": 53.5
   }
  },
+ "oa:5840d479fc52ad2b83d7feb802d4dd23": {
+  "away": "Ball State Cardinals",
+  "commence": "2026-11-18T00:00:00Z",
+  "current": {
+   "ml_away": 265,
+   "ml_home": -335,
+   "spread": -8.5,
+   "total": 49.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 265,
+    "ml_home": -335,
+    "spread": -8.5,
+    "total": 49.5
+   }
+  ],
+  "home": "Ohio Bobcats",
+  "open": {
+   "ml_away": 265,
+   "ml_home": -335,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -8.5,
+   "total": 49.5
+  }
+ },
  "oa:5b6989e8ecca343c4de3e7d285b70aa3": {
   "away": "Baylor Bears",
   "commence": "2026-11-14T20:30:00Z",
@@ -1353,7 +1602,7 @@
    "ml_away": 230,
    "ml_home": -285,
    "spread": -7.5,
-   "total": 48.5
+   "total": 49.5
   },
   "history": [
    {
@@ -1411,6 +1660,13 @@
     "ml_home": -285,
     "spread": -7.5,
     "total": 48.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 230,
+    "ml_home": -285,
+    "spread": -7.5,
+    "total": 49.5
    }
   ],
   "home": "BYU Cougars",
@@ -1426,8 +1682,8 @@
   "away": "Texas Longhorns",
   "commence": "2026-11-15T00:30:00Z",
   "current": {
-   "ml_away": 153,
-   "ml_home": -182,
+   "ml_away": 155,
+   "ml_home": -180,
    "spread": -4.0,
    "total": 46.5
   },
@@ -1485,6 +1741,13 @@
     "day": "2026-11-12",
     "ml_away": 153,
     "ml_home": -182,
+    "spread": -4.0,
+    "total": 46.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 155,
+    "ml_home": -180,
     "spread": -4.0,
     "total": 46.5
    }
@@ -1557,8 +1820,8 @@
   "away": "Jacksonville State Gamecocks",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": -285,
-   "ml_home": 234,
+   "ml_away": -295,
+   "ml_home": 241,
    "spread": 7.5,
    "total": 54.5
   },
@@ -1590,6 +1853,13 @@
     "ml_home": 234,
     "spread": 7.5,
     "total": 54.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -295,
+    "ml_home": 241,
+    "spread": 7.5,
+    "total": 54.5
    }
   ],
   "home": "Western Kentucky Hilltoppers",
@@ -1605,8 +1875,8 @@
   "away": "Georgia Southern Eagles",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": -225,
-   "ml_home": 189,
+   "ml_away": -230,
+   "ml_home": 191,
    "spread": 6.0,
    "total": 56.5
   },
@@ -1636,6 +1906,13 @@
     "day": "2026-11-12",
     "ml_away": -225,
     "ml_home": 189,
+    "spread": 6.0,
+    "total": 56.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -230,
+    "ml_home": 191,
     "spread": 6.0,
     "total": 56.5
    }
@@ -1708,10 +1985,10 @@
   "away": "UAB Blazers",
   "commence": "2026-11-14T18:00:00Z",
   "current": {
-   "ml_away": 110,
+   "ml_away": 114,
    "ml_home": -135,
    "spread": -2.5,
-   "total": 48.5
+   "total": 47.5
   },
   "history": [
    {
@@ -1741,6 +2018,13 @@
     "ml_home": -135,
     "spread": -2.5,
     "total": 48.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 114,
+    "ml_home": -135,
+    "spread": -2.5,
+    "total": 47.5
    }
   ],
   "home": "Temple Owls",
@@ -1768,6 +2052,13 @@
     "ml_home": 170,
     "spread": 5.5,
     "total": 43.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -205,
+    "ml_home": 170,
+    "spread": 5.5,
+    "total": 43.5
    }
   ],
   "home": "Illinois Fighting Illini",
@@ -1783,8 +2074,8 @@
   "away": "Arkansas State Red Wolves",
   "commence": "2026-11-14T18:00:00Z",
   "current": {
-   "ml_away": -103,
-   "ml_home": -118,
+   "ml_away": 100,
+   "ml_home": -119,
    "spread": -1.5,
    "total": 51.5
   },
@@ -1816,6 +2107,13 @@
     "ml_home": -118,
     "spread": -1.5,
     "total": 51.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 100,
+    "ml_home": -119,
+    "spread": -1.5,
+    "total": 51.5
    }
   ],
   "home": "Coastal Carolina Chanticleers",
@@ -1831,9 +2129,9 @@
   "away": "Houston Cougars",
   "commence": "2026-11-14T03:15:00Z",
   "current": {
-   "ml_away": -380,
-   "ml_home": 300,
-   "spread": 9.5,
+   "ml_away": -365,
+   "ml_home": 292,
+   "spread": 9.0,
    "total": 51.5
   },
   "history": [
@@ -1871,6 +2169,13 @@
     "ml_home": 300,
     "spread": 9.5,
     "total": 51.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -365,
+    "ml_home": 292,
+    "spread": 9.0,
+    "total": 51.5
    }
   ],
   "home": "Colorado Buffaloes",
@@ -1898,6 +2203,13 @@
     "ml_home": 170,
     "spread": 5.5,
     "total": 44.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -205,
+    "ml_home": 170,
+    "spread": 5.5,
+    "total": 44.5
    }
   ],
   "home": "TCU Horned Frogs",
@@ -1914,9 +2226,9 @@
   "commence": "2026-11-15T00:30:00Z",
   "current": {
    "ml_away": 500,
-   "ml_home": -680,
-   "spread": -15.0,
-   "total": 58.0
+   "ml_home": -690,
+   "spread": -15.5,
+   "total": 57.5
   },
   "history": [
    {
@@ -1953,6 +2265,13 @@
     "ml_home": -680,
     "spread": -15.0,
     "total": 58.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 500,
+    "ml_home": -690,
+    "spread": -15.5,
+    "total": 57.5
    }
   ],
   "home": "Virginia Tech Hokies",
@@ -1964,12 +2283,39 @@
    "total": 57.5
   }
  },
+ "oa:792875fa96ecdf75559454c19c011768": {
+  "away": "Miami (OH) RedHawks",
+  "commence": "2026-11-18T00:00:00Z",
+  "current": {
+   "ml_away": -295,
+   "ml_home": 240,
+   "spread": 7.5,
+   "total": 46.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": -295,
+    "ml_home": 240,
+    "spread": 7.5,
+    "total": 46.5
+   }
+  ],
+  "home": "Kent State Golden Flashes",
+  "open": {
+   "ml_away": -295,
+   "ml_home": 240,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 7.5,
+   "total": 46.5
+  }
+ },
  "oa:7b3c2958dadc616a19ce7b9b1dd2a7e4": {
   "away": "Utah Utes",
   "commence": "2026-11-15T00:30:00Z",
   "current": {
    "ml_away": -135,
-   "ml_home": 115,
+   "ml_home": 114,
    "spread": 2.5,
    "total": 54.5
   },
@@ -2022,6 +2368,13 @@
     "ml_home": 115,
     "spread": 2.5,
     "total": 54.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -135,
+    "ml_home": 114,
+    "spread": 2.5,
+    "total": 54.5
    }
   ],
   "home": "Arizona Wildcats",
@@ -2037,10 +2390,10 @@
   "away": "Georgia Tech Yellow Jackets",
   "commence": "2026-11-14T17:30:00Z",
   "current": {
-   "ml_away": 425,
-   "ml_home": -553,
-   "spread": -13.5,
-   "total": 47.5
+   "ml_away": 427,
+   "ml_home": -575,
+   "spread": -14.0,
+   "total": 49.0
   },
   "history": [
    {
@@ -2077,6 +2430,13 @@
     "ml_home": -553,
     "spread": -13.5,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 427,
+    "ml_home": -575,
+    "spread": -14.0,
+    "total": 49.0
    }
   ],
   "home": "Clemson Tigers",
@@ -2093,7 +2453,7 @@
   "commence": "2026-11-14T17:00:00Z",
   "current": {
    "ml_away": -185,
-   "ml_home": 159,
+   "ml_home": 160,
    "spread": 4.0,
    "total": 57.5
   },
@@ -2123,6 +2483,13 @@
     "day": "2026-11-12",
     "ml_away": -185,
     "ml_home": 159,
+    "spread": 4.0,
+    "total": 57.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -185,
+    "ml_home": 160,
     "spread": 4.0,
     "total": 57.5
    }
@@ -2180,6 +2547,13 @@
     "ml_home": 275,
     "spread": 9.0,
     "total": 42.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -350,
+    "ml_home": 275,
+    "spread": 9.0,
+    "total": 42.5
    }
   ],
   "home": "Maryland Terrapins",
@@ -2224,6 +2598,13 @@
    },
    {
     "day": "2026-11-12",
+    "ml_away": 979,
+    "ml_home": -1800,
+    "spread": -21.0,
+    "total": 53.5
+   },
+   {
+    "day": "2026-11-13",
     "ml_away": 979,
     "ml_home": -1800,
     "spread": -21.0,
@@ -2305,9 +2686,9 @@
   "away": "UNLV Rebels",
   "commence": "2026-11-15T00:30:00Z",
   "current": {
-   "ml_away": 460,
+   "ml_away": 475,
    "ml_home": -625,
-   "spread": -14.0,
+   "spread": -14.5,
    "total": 46.5
   },
   "history": [
@@ -2338,6 +2719,13 @@
     "ml_home": -625,
     "spread": -14.0,
     "total": 46.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 475,
+    "ml_home": -625,
+    "spread": -14.5,
+    "total": 46.5
    }
   ],
   "home": "New Mexico Lobos",
@@ -2353,8 +2741,8 @@
   "away": "New Mexico State Aggies",
   "commence": "2026-11-14T20:00:00Z",
   "current": {
-   "ml_away": 105,
-   "ml_home": -125,
+   "ml_away": -102,
+   "ml_home": -118,
    "spread": -1.5,
    "total": 49.0
   },
@@ -2386,6 +2774,13 @@
     "ml_home": -125,
     "spread": -1.5,
     "total": 49.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -102,
+    "ml_home": -118,
+    "spread": -1.5,
+    "total": 49.0
    }
   ],
   "home": "Missouri State Bears",
@@ -2401,9 +2796,9 @@
   "away": "Ole Miss Rebels",
   "commence": "2026-11-14T21:15:00Z",
   "current": {
-   "ml_away": -112,
-   "ml_home": -108,
-   "spread": 1.0,
+   "ml_away": -105,
+   "ml_home": -113,
+   "spread": -1.0,
    "total": 49.0
   },
   "history": [
@@ -2441,6 +2836,13 @@
     "ml_home": -108,
     "spread": 1.0,
     "total": 49.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -105,
+    "ml_home": -113,
+    "spread": -1.0,
+    "total": 49.0
    }
   ],
   "home": "Oklahoma Sooners",
@@ -2464,6 +2866,13 @@
   "history": [
    {
     "day": "2026-11-12",
+    "ml_away": 675,
+    "ml_home": -1050,
+    "spread": -18.5,
+    "total": 61.5
+   },
+   {
+    "day": "2026-11-13",
     "ml_away": 675,
     "ml_home": -1050,
     "spread": -18.5,
@@ -2593,10 +3002,10 @@
   "away": "Georgia Bulldogs",
   "commence": "2026-11-22T00:30:00Z",
   "current": {
-   "ml_away": -382,
-   "ml_home": 305,
+   "ml_away": -347,
+   "ml_home": 280,
    "spread": 10.0,
-   "total": 51.0
+   "total": 51.5
   },
   "history": [
    {
@@ -2605,6 +3014,13 @@
     "ml_home": 305,
     "spread": 10.0,
     "total": 51.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -347,
+    "ml_home": 280,
+    "spread": 10.0,
+    "total": 51.5
    }
   ],
   "home": "South Carolina Gamecocks",
@@ -2620,7 +3036,7 @@
   "away": "Duke Blue Devils",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": 420,
+   "ml_away": 415,
    "ml_home": -550,
    "spread": -13.5,
    "total": 54.5
@@ -2660,6 +3076,13 @@
     "ml_home": -550,
     "spread": -13.5,
     "total": 54.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 415,
+    "ml_home": -550,
+    "spread": -13.5,
+    "total": 54.5
    }
   ],
   "home": "Miami Hurricanes",
@@ -2675,7 +3098,7 @@
   "away": "Fresno State Bulldogs",
   "commence": "2026-11-14T21:00:00Z",
   "current": {
-   "ml_away": 290,
+   "ml_away": 289,
    "ml_home": -370,
    "spread": -9.5,
    "total": 59.5
@@ -2712,6 +3135,13 @@
    {
     "day": "2026-11-12",
     "ml_away": 290,
+    "ml_home": -370,
+    "spread": -9.5,
+    "total": 59.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 289,
     "ml_home": -370,
     "spread": -9.5,
     "total": 59.5
@@ -2793,9 +3223,9 @@
   "commence": "2026-11-14T21:15:00Z",
   "current": {
    "ml_away": -165,
-   "ml_home": 140,
+   "ml_home": 141,
    "spread": 3.5,
-   "total": 43.0
+   "total": 44.0
   },
   "history": [
    {
@@ -2832,6 +3262,13 @@
     "ml_home": 140,
     "spread": 3.5,
     "total": 43.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -165,
+    "ml_home": 141,
+    "spread": 3.5,
+    "total": 44.0
    }
   ],
   "home": "Michigan State Spartans",
@@ -2847,9 +3284,9 @@
   "away": "Florida International Panthers",
   "commence": "2026-11-14T20:00:00Z",
   "current": {
-   "ml_away": 172,
-   "ml_home": -205,
-   "spread": -5.0,
+   "ml_away": 170,
+   "ml_home": -200,
+   "spread": -4.5,
    "total": 53.5
   },
   "history": [
@@ -2880,6 +3317,13 @@
     "ml_home": -205,
     "spread": -5.0,
     "total": 53.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 170,
+    "ml_home": -200,
+    "spread": -4.5,
+    "total": 53.5
    }
   ],
   "home": "Delaware Blue Hens",
@@ -2898,7 +3342,7 @@
    "ml_away": -218,
    "ml_home": 180,
    "spread": 5.5,
-   "total": 42.5
+   "total": 41.5
   },
   "history": [
    {
@@ -2907,6 +3351,13 @@
     "ml_home": 180,
     "spread": 5.5,
     "total": 42.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -218,
+    "ml_home": 180,
+    "spread": 5.5,
+    "total": 41.5
    }
   ],
   "home": "Michigan Wolverines",
@@ -2922,7 +3373,7 @@
   "away": "Wake Forest Demon Deacons",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": -105,
+   "ml_away": -104,
    "ml_home": -115,
    "spread": -1.0,
    "total": 60.5
@@ -2976,6 +3427,13 @@
     "ml_home": -115,
     "spread": -1.0,
     "total": 60.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -104,
+    "ml_home": -115,
+    "spread": -1.0,
+    "total": 60.5
    }
   ],
   "home": "SMU Mustangs",
@@ -2991,7 +3449,7 @@
   "away": "Illinois Fighting Illini",
   "commence": "2026-11-14T02:00:00Z",
   "current": {
-   "ml_away": 308,
+   "ml_away": 310,
    "ml_home": -400,
    "spread": -10.0,
    "total": 47.5
@@ -3045,6 +3503,13 @@
     "ml_home": -400,
     "spread": -10.0,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 310,
+    "ml_home": -400,
+    "spread": -10.0,
+    "total": 47.5
    }
   ],
   "home": "UCLA Bruins",
@@ -3060,8 +3525,8 @@
   "away": "Florida Gators",
   "commence": "2026-11-14T23:15:00Z",
   "current": {
-   "ml_away": 145,
-   "ml_home": -170,
+   "ml_away": 138,
+   "ml_home": -162,
    "spread": -3.5,
    "total": 52.5
   },
@@ -3121,6 +3586,13 @@
     "ml_home": -170,
     "spread": -3.5,
     "total": 52.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 138,
+    "ml_home": -162,
+    "spread": -3.5,
+    "total": 52.5
    }
   ],
   "home": "Kentucky Wildcats",
@@ -3136,8 +3608,8 @@
   "away": "Nevada Wolf Pack",
   "commence": "2026-11-14T20:30:00Z",
   "current": {
-   "ml_away": -275,
-   "ml_home": 226,
+   "ml_away": -260,
+   "ml_home": 216,
    "spread": 7.0,
    "total": 47.5
   },
@@ -3169,6 +3641,13 @@
     "ml_home": 226,
     "spread": 7.0,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -260,
+    "ml_home": 216,
+    "spread": 7.0,
+    "total": 47.5
    }
   ],
   "home": "Northern Illinois Huskies",
@@ -3184,9 +3663,9 @@
   "away": "Colorado State Rams",
   "commence": "2026-11-15T03:30:00Z",
   "current": {
-   "ml_away": 275,
-   "ml_home": -345,
-   "spread": -9.5,
+   "ml_away": 270,
+   "ml_home": -340,
+   "spread": -9.0,
    "total": 66.5
   },
   "history": [
@@ -3216,6 +3695,13 @@
     "ml_away": 275,
     "ml_home": -345,
     "spread": -9.5,
+    "total": 66.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 270,
+    "ml_home": -340,
+    "spread": -9.0,
     "total": 66.5
    }
   ],
@@ -3320,6 +3806,13 @@
     "ml_home": -155,
     "spread": -3.0,
     "total": 55.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 130,
+    "ml_home": -155,
+    "spread": -3.0,
+    "total": 55.5
    }
   ],
   "home": "South Alabama Jaguars",
@@ -3336,7 +3829,7 @@
   "commence": "2026-11-15T04:00:00Z",
   "current": {
    "ml_away": -245,
-   "ml_home": 203,
+   "ml_home": 202,
    "spread": 6.5,
    "total": 38.5
   },
@@ -3368,6 +3861,13 @@
     "ml_home": 203,
     "spread": 6.5,
     "total": 38.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -245,
+    "ml_home": 202,
+    "spread": 6.5,
+    "total": 38.5
    }
   ],
   "home": "Hawaii Rainbow Warriors",
@@ -3383,8 +3883,8 @@
   "away": "Syracuse Orange",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": -140,
-   "ml_home": 115,
+   "ml_away": -147,
+   "ml_home": 125,
    "spread": 3.0,
    "total": 53.5
   },
@@ -3421,6 +3921,13 @@
     "day": "2026-11-12",
     "ml_away": -140,
     "ml_home": 115,
+    "spread": 3.0,
+    "total": 53.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -147,
+    "ml_home": 125,
     "spread": 3.0,
     "total": 53.5
    }
@@ -3478,6 +3985,13 @@
     "ml_home": -420,
     "spread": -10.0,
     "total": 46.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 330,
+    "ml_home": -420,
+    "spread": -10.0,
+    "total": 46.5
    }
   ],
   "home": "Virginia Cavaliers",
@@ -3493,10 +4007,10 @@
   "away": "Tulane Green Wave",
   "commence": "2026-11-14T19:00:00Z",
   "current": {
-   "ml_away": 114,
-   "ml_home": -135,
+   "ml_away": 115,
+   "ml_home": -137,
    "spread": -2.5,
-   "total": 48.0
+   "total": 48.5
   },
   "history": [
    {
@@ -3526,6 +4040,13 @@
     "ml_home": -135,
     "spread": -2.5,
     "total": 48.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 115,
+    "ml_home": -137,
+    "spread": -2.5,
+    "total": 48.5
    }
   ],
   "home": "Rice Owls",
@@ -3541,10 +4062,10 @@
   "away": "South Carolina Gamecocks",
   "commence": "2026-11-15T00:45:00Z",
   "current": {
-   "ml_away": -290,
-   "ml_home": 236,
-   "spread": 7.0,
-   "total": 51.0
+   "ml_away": -330,
+   "ml_home": 260,
+   "spread": 8.0,
+   "total": 51.5
   },
   "history": [
    {
@@ -3581,6 +4102,13 @@
     "ml_home": 236,
     "spread": 7.0,
     "total": 51.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -330,
+    "ml_home": 260,
+    "spread": 8.0,
+    "total": 51.5
    }
   ],
   "home": "Arkansas Razorbacks",
@@ -3596,8 +4124,8 @@
   "away": "Minnesota Golden Gophers",
   "commence": "2026-11-15T00:00:00Z",
   "current": {
-   "ml_away": 280,
-   "ml_home": -355,
+   "ml_away": 290,
+   "ml_home": -365,
    "spread": -9.5,
    "total": 42.0
   },
@@ -3636,6 +4164,13 @@
     "ml_home": -355,
     "spread": -9.5,
     "total": 42.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 290,
+    "ml_home": -365,
+    "spread": -9.5,
+    "total": 42.0
    }
   ],
   "home": "Penn State Nittany Lions",
@@ -3651,7 +4186,7 @@
   "away": "Auburn Tigers",
   "commence": "2026-11-14T17:00:00Z",
   "current": {
-   "ml_away": -140,
+   "ml_away": -139,
    "ml_home": 119,
    "spread": 2.5,
    "total": 50.5
@@ -3691,6 +4226,13 @@
     "ml_home": 119,
     "spread": 2.5,
     "total": 50.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -139,
+    "ml_home": 119,
+    "spread": 2.5,
+    "total": 50.5
    }
   ],
   "home": "Mississippi State Bulldogs",
@@ -3706,9 +4248,9 @@
   "away": "San Jose State Spartans",
   "commence": "2026-11-15T00:00:00Z",
   "current": {
-   "ml_away": 370,
-   "ml_home": -480,
-   "spread": -12.5,
+   "ml_away": 375,
+   "ml_home": -475,
+   "spread": -12.0,
    "total": 47.5
   },
   "history": [
@@ -3739,6 +4281,13 @@
     "ml_home": -480,
     "spread": -12.5,
     "total": 47.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 375,
+    "ml_home": -475,
+    "spread": -12.0,
+    "total": 47.5
    }
   ],
   "home": "Air Force Falcons",
@@ -3755,7 +4304,7 @@
   "commence": "2026-11-15T02:30:00Z",
   "current": {
    "ml_away": -145,
-   "ml_home": 120,
+   "ml_home": 122,
    "spread": 2.5,
    "total": 42.5
   },
@@ -3794,6 +4343,13 @@
     "ml_home": 120,
     "spread": 2.5,
     "total": 42.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -145,
+    "ml_home": 122,
+    "spread": 2.5,
+    "total": 42.5
    }
   ],
   "home": "San Diego State Aztecs",
@@ -3809,10 +4365,10 @@
   "away": "North Texas Mean Green",
   "commence": "2026-11-15T02:00:00Z",
   "current": {
-   "ml_away": -127,
+   "ml_away": -128,
    "ml_home": 107,
-   "spread": 2.0,
-   "total": 76.0
+   "spread": 2.5,
+   "total": 76.5
   },
   "history": [
    {
@@ -3842,6 +4398,13 @@
     "ml_home": 107,
     "spread": 2.0,
     "total": 76.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -128,
+    "ml_home": 107,
+    "spread": 2.5,
+    "total": 76.5
    }
   ],
   "home": "UTSA Roadrunners",
@@ -3853,14 +4416,41 @@
    "total": 77.5
   }
  },
+ "oa:ef5f5ac74b2228e8521c289fdbc6af93": {
+  "away": "Akron Zips",
+  "commence": "2026-11-19T00:00:00Z",
+  "current": {
+   "ml_away": 112,
+   "ml_home": -132,
+   "spread": -2.5,
+   "total": 45.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 112,
+    "ml_home": -132,
+    "spread": -2.5,
+    "total": 45.5
+   }
+  ],
+  "home": "UMass Minutemen",
+  "open": {
+   "ml_away": 112,
+   "ml_home": -132,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -2.5,
+   "total": 45.5
+  }
+ },
  "oa:eff5d01c8683ed700c896743f0490989": {
   "away": "Florida State Seminoles",
   "commence": "2026-11-14T00:00:00Z",
   "current": {
    "ml_away": 142,
-   "ml_home": -168,
+   "ml_home": -166,
    "spread": -3.5,
-   "total": 53.5
+   "total": 52.5
   },
   "history": [
    {
@@ -3897,6 +4487,13 @@
     "ml_home": -168,
     "spread": -3.5,
     "total": 53.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 142,
+    "ml_home": -166,
+    "spread": -3.5,
+    "total": 52.5
    }
   ],
   "home": "Pittsburgh Panthers",
@@ -3912,10 +4509,10 @@
   "away": "Oregon State Beavers",
   "commence": "2026-11-14T23:00:00Z",
   "current": {
-   "ml_away": 475,
+   "ml_away": 470,
    "ml_home": -650,
    "spread": -14.5,
-   "total": 64.5
+   "total": 63.5
   },
   "history": [
    {
@@ -3973,6 +4570,13 @@
     "ml_home": -650,
     "spread": -14.5,
     "total": 64.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 470,
+    "ml_home": -650,
+    "spread": -14.5,
+    "total": 63.5
    }
   ],
   "home": "Boise State Broncos",
@@ -4000,6 +4604,13 @@
     "ml_home": -774,
     "spread": -16.0,
     "total": 58.0
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 548,
+    "ml_home": -774,
+    "spread": -16.0,
+    "total": 58.0
    }
   ],
   "home": "Notre Dame Fighting Irish",
@@ -4015,7 +4626,7 @@
   "away": "Alabama Crimson Tide",
   "commence": "2026-11-14T17:45:00Z",
   "current": {
-   "ml_away": -925,
+   "ml_away": -950,
    "ml_home": 624,
    "spread": 17.5,
    "total": 50.5
@@ -4052,6 +4663,13 @@
    {
     "day": "2026-11-12",
     "ml_away": -925,
+    "ml_home": 624,
+    "spread": 17.5,
+    "total": 50.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -950,
     "ml_home": 624,
     "spread": 17.5,
     "total": 50.5

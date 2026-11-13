@@ -1,31 +1,4 @@
 {
- "oa:07361a8381206817e27bd2697fad7479": {
-  "away": "Los Angeles Lakers",
-  "commence": "2026-11-10T00:10:00Z",
-  "current": {
-   "ml_away": -120,
-   "ml_home": 100,
-   "spread": 1.5,
-   "total": 236.5
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": -120,
-    "ml_home": 100,
-    "spread": 1.5,
-    "total": 236.5
-   }
-  ],
-  "home": "Atlanta Hawks",
-  "open": {
-   "ml_away": -120,
-   "ml_home": 100,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": 1.5,
-   "total": 236.5
-  }
- },
  "oa:095441822e3b9b1b84bff9e482b9057a": {
   "away": "Cleveland Cavaliers",
   "commence": "2026-11-12T00:10:00Z",
@@ -53,31 +26,31 @@
    "total": 221.5
   }
  },
- "oa:1df5ff8fe9c6d2dbff1d0ae176063b37": {
-  "away": "Cleveland Cavaliers",
-  "commence": "2026-11-10T00:10:00Z",
+ "oa:1fae7f34ec6035dffa74feb148ee26c7": {
+  "away": "Golden State Warriors",
+  "commence": "2026-11-14T02:40:00Z",
   "current": {
-   "ml_away": -360,
-   "ml_home": 289,
-   "spread": 9.0,
-   "total": 214.5
+   "ml_away": 488,
+   "ml_home": -700,
+   "spread": -11.5,
+   "total": 219.5
   },
   "history": [
    {
-    "day": "2026-11-09",
-    "ml_away": -360,
-    "ml_home": 289,
-    "spread": 9.0,
-    "total": 214.5
+    "day": "2026-11-13",
+    "ml_away": 488,
+    "ml_home": -700,
+    "spread": -11.5,
+    "total": 219.5
    }
   ],
-  "home": "Charlotte Hornets",
+  "home": "San Antonio Spurs",
   "open": {
-   "ml_away": -360,
-   "ml_home": 289,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": 9.0,
-   "total": 214.5
+   "ml_away": 488,
+   "ml_home": -700,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -11.5,
+   "total": 219.5
   }
  },
  "oa:21792501482fecfaacd3a4a24776c9e6": {
@@ -105,33 +78,6 @@
    "seen": "2026-11-11T12:52+00:00",
    "spread": 4.0,
    "total": 229.5
-  }
- },
- "oa:3619e1cf4b0a325c3e0ba5b1fb7f3d91": {
-  "away": "New Orleans Pelicans",
-  "commence": "2026-11-10T03:10:00Z",
-  "current": {
-   "ml_away": 310,
-   "ml_home": -390,
-   "spread": -9.5,
-   "total": 231.5
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": 310,
-    "ml_home": -390,
-    "spread": -9.5,
-    "total": 231.5
-   }
-  ],
-  "home": "Golden State Warriors",
-  "open": {
-   "ml_away": 310,
-   "ml_home": -390,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": -9.5,
-   "total": 231.5
   }
  },
  "oa:3689d555c9a1c81e3d300375b4c80530": {
@@ -242,31 +188,112 @@
    "total": 217.5
   }
  },
- "oa:56efae2815b3a18850f07a3781d652a2": {
-  "away": "Memphis Grizzlies",
-  "commence": "2026-11-10T00:40:00Z",
+ "oa:5344669fd560d317ffaee0a1d16be7c8": {
+  "away": "Oklahoma City Thunder",
+  "commence": "2026-11-14T03:40:00Z",
   "current": {
-   "ml_away": 130,
-   "ml_home": -150,
-   "spread": -3.5,
-   "total": 231.5
+   "ml_away": -267,
+   "ml_home": 220,
+   "spread": 6.5,
+   "total": 222.5
   },
   "history": [
    {
-    "day": "2026-11-09",
-    "ml_away": 130,
-    "ml_home": -150,
-    "spread": -3.5,
-    "total": 231.5
+    "day": "2026-11-13",
+    "ml_away": -267,
+    "ml_home": 220,
+    "spread": 6.5,
+    "total": 222.5
    }
   ],
-  "home": "Toronto Raptors",
+  "home": "Los Angeles Clippers",
   "open": {
-   "ml_away": 130,
-   "ml_home": -150,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": -3.5,
-   "total": 231.5
+   "ml_away": -267,
+   "ml_home": 220,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 6.5,
+   "total": 222.5
+  }
+ },
+ "oa:58b860d500be69ebf853926aa1ac8271": {
+  "away": "Cleveland Cavaliers",
+  "commence": "2026-11-14T01:10:00Z",
+  "current": {
+   "ml_away": 114,
+   "ml_home": -135,
+   "spread": -2.5,
+   "total": 235.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 114,
+    "ml_home": -135,
+    "spread": -2.5,
+    "total": 235.5
+   }
+  ],
+  "home": "Miami Heat",
+  "open": {
+   "ml_away": 114,
+   "ml_home": -135,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -2.5,
+   "total": 235.5
+  }
+ },
+ "oa:6669b911691463c669a5c10574742e8e": {
+  "away": "New York Knicks",
+  "commence": "2026-11-14T00:10:00Z",
+  "current": {
+   "ml_away": -277,
+   "ml_home": 230,
+   "spread": 7.5,
+   "total": 219.0
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": -277,
+    "ml_home": 230,
+    "spread": 7.5,
+    "total": 219.0
+   }
+  ],
+  "home": "Indiana Pacers",
+  "open": {
+   "ml_away": -277,
+   "ml_home": 230,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 7.5,
+   "total": 219.0
+  }
+ },
+ "oa:76416359b5453c01968e94702a375f16": {
+  "away": "Milwaukee Bucks",
+  "commence": "2026-11-14T00:10:00Z",
+  "current": {
+   "ml_away": 293,
+   "ml_home": -370,
+   "spread": -9.0,
+   "total": 222.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 293,
+    "ml_home": -370,
+    "spread": -9.0,
+    "total": 222.5
+   }
+  ],
+  "home": "Orlando Magic",
+  "open": {
+   "ml_away": 293,
+   "ml_home": -370,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -9.0,
+   "total": 222.5
   }
  },
  "oa:78ab42ddb22b68903fd53a384d0fc616": {
@@ -294,6 +321,33 @@
    "seen": "2026-11-10T12:50+00:00",
    "spread": 6.0,
    "total": 222.0
+  }
+ },
+ "oa:80ffc963f864f3d4fcefa82fd02b7d7b": {
+  "away": "Atlanta Hawks",
+  "commence": "2026-11-14T01:10:00Z",
+  "current": {
+   "ml_away": -285,
+   "ml_home": 234,
+   "spread": 7.5,
+   "total": 245.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": -285,
+    "ml_home": 234,
+    "spread": 7.5,
+    "total": 245.5
+   }
+  ],
+  "home": "Chicago Bulls",
+  "open": {
+   "ml_away": -285,
+   "ml_home": 234,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 7.5,
+   "total": 245.5
   }
  },
  "oa:8178ff2ec61f604b61dfe6d7b8d71103": {
@@ -395,6 +449,13 @@
     "ml_home": 105,
     "spread": 2.0,
     "total": 234.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": -127,
+    "ml_home": 105,
+    "spread": 2.0,
+    "total": 234.5
    }
   ],
   "home": "Golden State Warriors",
@@ -404,6 +465,33 @@
    "seen": "2026-11-04T06:29+00:00",
    "spread": 2.0,
    "total": 234.5
+  }
+ },
+ "oa:8a40b260e8fa0d67c1f2bc2b39a24982": {
+  "away": "Memphis Grizzlies",
+  "commence": "2026-11-14T01:10:00Z",
+  "current": {
+   "ml_away": -162,
+   "ml_home": 138,
+   "spread": 3.5,
+   "total": 235.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": -162,
+    "ml_home": 138,
+    "spread": 3.5,
+    "total": 235.5
+   }
+  ],
+  "home": "New Orleans Pelicans",
+  "open": {
+   "ml_away": -162,
+   "ml_home": 138,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 3.5,
+   "total": 235.5
   }
  },
  "oa:8e0fdbf07b1f288b00ec5b370f6c1e2d": {
@@ -433,60 +521,6 @@
    "total": 239.5
   }
  },
- "oa:929b863acedecaf614c6312e28a44837": {
-  "away": "Washington Wizards",
-  "commence": "2026-11-10T00:10:00Z",
-  "current": {
-   "ml_away": 385,
-   "ml_home": -500,
-   "spread": -10.5,
-   "total": 218.0
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": 385,
-    "ml_home": -500,
-    "spread": -10.5,
-    "total": 218.0
-   }
-  ],
-  "home": "Detroit Pistons",
-  "open": {
-   "ml_away": 385,
-   "ml_home": -500,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": -10.5,
-   "total": 218.0
-  }
- },
- "oa:9866fa22adc8509d487522ef4cf0fc24": {
-  "away": "Indiana Pacers",
-  "commence": "2026-11-10T01:10:00Z",
-  "current": {
-   "ml_away": 125,
-   "ml_home": -148,
-   "spread": -3.0,
-   "total": 222.5
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": 125,
-    "ml_home": -148,
-    "spread": -3.0,
-    "total": 222.5
-   }
-  ],
-  "home": "Dallas Mavericks",
-  "open": {
-   "ml_away": 125,
-   "ml_home": -148,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": -3.0,
-   "total": 222.5
-  }
- },
  "oa:9ac02cb22adf276b325b1e9c9c6c588e": {
   "away": "Miami Heat",
   "commence": "2026-11-11T02:10:00Z",
@@ -512,6 +546,33 @@
    "seen": "2026-11-10T12:50+00:00",
    "spread": 9.5,
    "total": 228.5
+  }
+ },
+ "oa:a51c350318d7570c2b74af08eedb9fcd": {
+  "away": "Portland Trail Blazers",
+  "commence": "2026-11-14T03:10:00Z",
+  "current": {
+   "ml_away": -500,
+   "ml_home": 383,
+   "spread": 10.5,
+   "total": 229.0
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": -500,
+    "ml_home": 383,
+    "spread": 10.5,
+    "total": 229.0
+   }
+  ],
+  "home": "Sacramento Kings",
+  "open": {
+   "ml_away": -500,
+   "ml_home": 383,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": 10.5,
+   "total": 229.0
   }
  },
  "oa:a6555e8b7252dfb32f1817fc8c59ad83": {
@@ -582,6 +643,13 @@
    },
    {
     "day": "2026-11-12",
+    "ml_away": -110,
+    "ml_home": -110,
+    "spread": -1.0,
+    "total": 230.0
+   },
+   {
+    "day": "2026-11-13",
     "ml_away": -110,
     "ml_home": -110,
     "spread": -1.0,
@@ -683,6 +751,33 @@
    "seen": "2026-11-09T12:54+00:00",
    "spread": 0.5,
    "total": 215.5
+  }
+ },
+ "oa:d04acca7f0f369fc53bf04cd3357cb0d": {
+  "away": "Utah Jazz",
+  "commence": "2026-11-14T01:40:00Z",
+  "current": {
+   "ml_away": 875,
+   "ml_home": -1587,
+   "spread": -17.0,
+   "total": 219.5
+  },
+  "history": [
+   {
+    "day": "2026-11-13",
+    "ml_away": 875,
+    "ml_home": -1587,
+    "spread": -17.0,
+    "total": 219.5
+   }
+  ],
+  "home": "Houston Rockets",
+  "open": {
+   "ml_away": 875,
+   "ml_home": -1587,
+   "seen": "2026-11-13T12:51+00:00",
+   "spread": -17.0,
+   "total": 219.5
   }
  },
  "oa:d4f288eeb0132970825be17748f2b4f0": {
@@ -811,6 +906,13 @@
     "ml_home": -190,
     "spread": -5.5,
     "total": 230.5
+   },
+   {
+    "day": "2026-11-13",
+    "ml_away": 155,
+    "ml_home": -190,
+    "spread": -5.5,
+    "total": 230.5
    }
   ],
   "home": "Boston Celtics",
@@ -820,60 +922,6 @@
    "seen": "2026-11-04T06:29+00:00",
    "spread": -5.5,
    "total": 230.5
-  }
- },
- "oa:dc4eb6ae9979b3d3418c35b4210f0c72": {
-  "away": "San Antonio Spurs",
-  "commence": "2026-11-10T02:10:00Z",
-  "current": {
-   "ml_away": -355,
-   "ml_home": 285,
-   "spread": 8.5,
-   "total": 227.5
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": -355,
-    "ml_home": 285,
-    "spread": 8.5,
-    "total": 227.5
-   }
-  ],
-  "home": "Phoenix Suns",
-  "open": {
-   "ml_away": -355,
-   "ml_home": 285,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": 8.5,
-   "total": 227.5
-  }
- },
- "oa:dc61de43b5db9de357f48f44c8022494": {
-  "away": "Denver Nuggets",
-  "commence": "2026-11-10T01:40:00Z",
-  "current": {
-   "ml_away": 270,
-   "ml_home": -344,
-   "spread": -8.5,
-   "total": 217.5
-  },
-  "history": [
-   {
-    "day": "2026-11-09",
-    "ml_away": 270,
-    "ml_home": -344,
-    "spread": -8.5,
-    "total": 217.5
-   }
-  ],
-  "home": "Houston Rockets",
-  "open": {
-   "ml_away": 270,
-   "ml_home": -344,
-   "seen": "2026-11-09T12:54+00:00",
-   "spread": -8.5,
-   "total": 217.5
   }
  },
  "oa:dfd908bad3a3bfcae9e08bf128273b18": {
@@ -944,6 +992,13 @@
    },
    {
     "day": "2026-11-12",
+    "ml_away": -105,
+    "ml_home": -115,
+    "spread": -1.0,
+    "total": 234.0
+   },
+   {
+    "day": "2026-11-13",
     "ml_away": -105,
     "ml_home": -115,
     "spread": -1.0,
