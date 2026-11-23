@@ -1,0 +1,1099 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23T12:59+00:00",
+ "sports": [
+  {
+   "key": "nfl",
+   "name": "NFL",
+   "source": "odds_api",
+   "games": [
+    {
+     "id": "oa:3a60ed1d20004aa4d4772b2c1a2272e7",
+     "home": "Washington Commanders",
+     "away": "Cincinnati Bengals",
+     "commence": "2026-11-24T01:15:00Z",
+     "spread": 6.0,
+     "total": 54.5,
+     "ml_home": 240,
+     "ml_away": -295,
+     "books": 9,
+     "spread_range": [
+      5.5,
+      6.0
+     ],
+     "best_home": {
+      "price": 250.0,
+      "book": "BetUS"
+     },
+     "best_away": {
+      "price": -283.0,
+      "book": "MyBookie.ag"
+     },
+     "open_spread": 4.0,
+     "open_total": 51.0,
+     "open_seen": "2026-11-11T12:52+00:00",
+     "move_spread": 2.0,
+     "move_total": 3.5,
+     "day_spread": 0.0,
+     "day_total": -0.5,
+     "prob_home": 0.283,
+     "prob_away": 0.717
+    }
+   ]
+  },
+  {
+   "key": "ncaaf",
+   "name": "College Football",
+   "source": "odds_api",
+   "games": [
+    {
+     "id": "oa:4814277a6e26955eb1df064fed7a3bcb",
+     "home": "Eastern Michigan Eagles",
+     "away": "Kent State Golden Flashes",
+     "commence": "2026-11-25T00:00:00Z",
+     "spread": -5.5,
+     "total": 45.5,
+     "ml_home": -220,
+     "ml_away": 183,
+     "books": 9,
+     "spread_range": [
+      -6.0,
+      -5.5
+     ],
+     "best_home": {
+      "price": -215.0,
+      "book": "FanDuel"
+     },
+     "best_away": {
+      "price": 190.0,
+      "book": "BetRivers"
+     },
+     "open_spread": -5.5,
+     "open_total": 45.5,
+     "open_seen": "2026-11-20T12:54+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": 0.0,
+     "day_total": -1.0,
+     "prob_home": 0.661,
+     "prob_away": 0.339
+    },
+    {
+     "id": "oa:a82769fe54a0f8c714667b8720b67449",
+     "home": "Western Michigan Broncos",
+     "away": "Miami (OH) RedHawks",
+     "commence": "2026-11-25T00:00:00Z",
+     "spread": -7.0,
+     "total": 45.5,
+     "ml_home": -310,
+     "ml_away": 249,
+     "books": 9,
+     "spread_range": [
+      -7.5,
+      -7.0
+     ],
+     "best_home": {
+      "price": -285.0,
+      "book": "FanDuel"
+     },
+     "best_away": {
+      "price": 255.0,
+      "book": "BetUS"
+     },
+     "open_spread": -7.5,
+     "open_total": 47.5,
+     "open_seen": "2026-11-20T12:54+00:00",
+     "move_spread": 0.5,
+     "move_total": -2.0,
+     "day_spread": 0.5,
+     "day_total": -1.0,
+     "prob_home": 0.725,
+     "prob_away": 0.275
+    }
+   ]
+  },
+  {
+   "key": "nba",
+   "name": "NBA",
+   "source": "odds_api",
+   "games": [
+    {
+     "id": "oa:35ca45d3e548dc7207fd7f1696ab16f5",
+     "home": "Charlotte Hornets",
+     "away": "Memphis Grizzlies",
+     "commence": "2026-11-24T00:10:00Z",
+     "spread": 3.5,
+     "total": 215.5,
+     "ml_home": 136,
+     "ml_away": -157,
+     "books": 8,
+     "spread_range": [
+      3.5,
+      4.5
+     ],
+     "best_home": {
+      "price": 145.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": -150.0,
+      "book": "BetUS"
+     },
+     "open_spread": 3.5,
+     "open_total": 215.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.41,
+     "prob_away": 0.59
+    },
+    {
+     "id": "oa:ac6fb079d66ef35a2a77e22b5e94ef8d",
+     "home": "Philadelphia 76ers",
+     "away": "Portland Trail Blazers",
+     "commence": "2026-11-24T00:10:00Z",
+     "spread": -4.0,
+     "total": 230.5,
+     "ml_home": -170,
+     "ml_away": 141,
+     "books": 9,
+     "spread_range": [
+      -4.5,
+      -3.5
+     ],
+     "best_home": {
+      "price": -160.0,
+      "book": "LowVig.ag"
+     },
+     "best_away": {
+      "price": 146.0,
+      "book": "FanDuel"
+     },
+     "open_spread": -4.0,
+     "open_total": 230.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.603,
+     "prob_away": 0.397
+    },
+    {
+     "id": "oa:a72a1703f7a92b80768255d1d977a761",
+     "home": "Minnesota Timberwolves",
+     "away": "Brooklyn Nets",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": -11.5,
+     "total": 224.0,
+     "ml_home": -620,
+     "ml_away": 455,
+     "books": 9,
+     "spread_range": [
+      -12.5,
+      -11.5
+     ],
+     "best_home": {
+      "price": -590.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": 471.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -11.5,
+     "open_total": 224.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.827,
+     "prob_away": 0.173
+    },
+    {
+     "id": "oa:c9b6c9f77fd3628308dd34f50854a9c0",
+     "home": "Indiana Pacers",
+     "away": "Oklahoma City Thunder",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": 5.0,
+     "total": 222.5,
+     "ml_home": 165,
+     "ml_away": -195,
+     "books": 9,
+     "spread_range": [
+      4.5,
+      5.5
+     ],
+     "best_home": {
+      "price": 180.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": -190.0,
+      "book": "BetOnline.ag"
+     },
+     "open_spread": 5.0,
+     "open_total": 222.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.363,
+     "prob_away": 0.637
+    },
+    {
+     "id": "oa:a5184238c27b9c3bfca29220f9d5d14a",
+     "home": "Toronto Raptors",
+     "away": "Milwaukee Bucks",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": -10.5,
+     "total": 223.0,
+     "ml_home": -500,
+     "ml_away": 375,
+     "books": 9,
+     "spread_range": [
+      -11.5,
+      -10.5
+     ],
+     "best_home": {
+      "price": -450.0,
+      "book": "Bovada"
+     },
+     "best_away": {
+      "price": 398.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -10.5,
+     "open_total": 223.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.798,
+     "prob_away": 0.202
+    },
+    {
+     "id": "oa:b8dfee1fca57ec870528a14c792ad73a",
+     "home": "Chicago Bulls",
+     "away": "Cleveland Cavaliers",
+     "commence": "2026-11-24T01:10:00Z",
+     "spread": 8.5,
+     "total": 239.5,
+     "ml_home": 270,
+     "ml_away": -330,
+     "books": 9,
+     "spread_range": [
+      8.5,
+      8.5
+     ],
+     "best_home": {
+      "price": 275.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": -325.0,
+      "book": "BetMGM"
+     },
+     "open_spread": 8.5,
+     "open_total": 239.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.26,
+     "prob_away": 0.74
+    },
+    {
+     "id": "oa:6caeb7cce7c8340fed588f3badd83fe0",
+     "home": "New Orleans Pelicans",
+     "away": "Phoenix Suns",
+     "commence": "2026-11-24T01:10:00Z",
+     "spread": 3.0,
+     "total": 232.5,
+     "ml_home": 131,
+     "ml_away": -155,
+     "books": 9,
+     "spread_range": [
+      2.5,
+      3.5
+     ],
+     "best_home": {
+      "price": 138.0,
+      "book": "BetUS"
+     },
+     "best_away": {
+      "price": -149.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": 3.0,
+     "open_total": 232.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.416,
+     "prob_away": 0.584
+    },
+    {
+     "id": "oa:db2311c331296d3328d71b842167dea4",
+     "home": "Houston Rockets",
+     "away": "Los Angeles Clippers",
+     "commence": "2026-11-24T01:40:00Z",
+     "spread": -12.5,
+     "total": 225.0,
+     "ml_home": -650,
+     "ml_away": 470,
+     "books": 9,
+     "spread_range": [
+      -12.5,
+      -12.5
+     ],
+     "best_home": {
+      "price": -590.0,
+      "book": "FanDuel"
+     },
+     "best_away": {
+      "price": 487.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -12.5,
+     "open_total": 225.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.832,
+     "prob_away": 0.168
+    },
+    {
+     "id": "oa:3e9dc52cb055c0154839c4aec417955b",
+     "home": "Los Angeles Lakers",
+     "away": "Utah Jazz",
+     "commence": "2026-11-24T03:10:00Z",
+     "spread": -13.5,
+     "total": 226.5,
+     "ml_home": -770,
+     "ml_away": 540,
+     "books": 9,
+     "spread_range": [
+      -14.0,
+      -13.5
+     ],
+     "best_home": {
+      "price": -737.0,
+      "book": "LowVig.ag"
+     },
+     "best_away": {
+      "price": 554.0,
+      "book": "DraftKings"
+     },
+     "open_spread": -13.5,
+     "open_total": 226.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.85,
+     "prob_away": 0.15
+    },
+    {
+     "id": "oa:17f31499f145cd9d3232819395d29448",
+     "home": "Sacramento Kings",
+     "away": "San Antonio Spurs",
+     "commence": "2026-11-24T03:10:00Z",
+     "spread": 10.5,
+     "total": 224.0,
+     "ml_home": 371,
+     "ml_away": -484,
+     "books": 9,
+     "spread_range": [
+      10.5,
+      11.0
+     ],
+     "best_home": {
+      "price": 380.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": -469.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": 10.5,
+     "open_total": 224.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.204,
+     "prob_away": 0.796
+    }
+   ]
+  },
+  {
+   "key": "nhl",
+   "name": "NHL",
+   "source": "odds_api",
+   "games": [
+    {
+     "id": "oa:e9429c68a48753de9779d88e6cf393ad",
+     "home": "New Jersey Devils",
+     "away": "Columbus Blue Jackets",
+     "commence": "2026-11-24T00:10:00Z",
+     "spread": -1.5,
+     "total": 6.0,
+     "ml_home": -205,
+     "ml_away": 170,
+     "books": 9,
+     "spread_range": [
+      -1.5,
+      -1.5
+     ],
+     "best_home": {
+      "price": -200.0,
+      "book": "LowVig.ag"
+     },
+     "best_away": {
+      "price": 175.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -1.5,
+     "open_total": 6.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.645,
+     "prob_away": 0.355
+    },
+    {
+     "id": "oa:d127e1e72a1b9087aca692f3b5812532",
+     "home": "Ottawa Senators",
+     "away": "Calgary Flames",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": -1.5,
+     "total": 6.0,
+     "ml_home": -230,
+     "ml_away": 190,
+     "books": 9,
+     "spread_range": [
+      -1.5,
+      -1.5
+     ],
+     "best_home": {
+      "price": -220.0,
+      "book": "FanDuel"
+     },
+     "best_away": {
+      "price": 198.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -1.5,
+     "open_total": 6.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.669,
+     "prob_away": 0.331
+    },
+    {
+     "id": "oa:806787e1b3ac73d09e3ae05f6d595865",
+     "home": "Montr\u00e9al Canadiens",
+     "away": "Los Angeles Kings",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": -1.5,
+     "total": 6.0,
+     "ml_home": -152,
+     "ml_away": 126,
+     "books": 9,
+     "spread_range": [
+      -1.5,
+      -1.5
+     ],
+     "best_home": {
+      "price": -148.0,
+      "book": "DraftKings"
+     },
+     "best_away": {
+      "price": 136.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -1.5,
+     "open_total": 6.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.577,
+     "prob_away": 0.423
+    },
+    {
+     "id": "oa:2d095386ab1321c89df24896d98495ee",
+     "home": "New York Islanders",
+     "away": "Toronto Maple Leafs",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": -1.5,
+     "total": 6.5,
+     "ml_home": -160,
+     "ml_away": 135,
+     "books": 9,
+     "spread_range": [
+      -1.5,
+      -1.5
+     ],
+     "best_home": {
+      "price": -155.0,
+      "book": "BetUS"
+     },
+     "best_away": {
+      "price": 139.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": -1.5,
+     "open_total": 6.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.591,
+     "prob_away": 0.409
+    },
+    {
+     "id": "oa:e2efcb24b2d9689232946057b7e43d23",
+     "home": "Winnipeg Jets",
+     "away": "Utah Mammoth",
+     "commence": "2026-11-24T00:40:00Z",
+     "spread": 1.5,
+     "total": 6.5,
+     "ml_home": -102,
+     "ml_away": -117,
+     "books": 9,
+     "spread_range": [
+      1.5,
+      1.5
+     ],
+     "best_home": {
+      "price": 100.0,
+      "book": "LowVig.ag"
+     },
+     "best_away": {
+      "price": -114.0,
+      "book": "LowVig.ag"
+     },
+     "open_spread": 1.5,
+     "open_total": 6.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.484,
+     "prob_away": 0.516
+    },
+    {
+     "id": "oa:5074be0d13d60cc7fd82b06c4d8ddd31",
+     "home": "Seattle Kraken",
+     "away": "Anaheim Ducks",
+     "commence": "2026-11-24T02:50:00Z",
+     "spread": -1.5,
+     "total": 6.5,
+     "ml_home": -110,
+     "ml_away": -108,
+     "books": 9,
+     "spread_range": [
+      -1.5,
+      1.5
+     ],
+     "best_home": {
+      "price": -107.0,
+      "book": "LowVig.ag"
+     },
+     "best_away": {
+      "price": -104.0,
+      "book": "FanDuel"
+     },
+     "open_spread": -1.5,
+     "open_total": 6.5,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.502,
+     "prob_away": 0.498
+    },
+    {
+     "id": "oa:43376208ec2111794696249fe50f5e84",
+     "home": "San Jose Sharks",
+     "away": "Minnesota Wild",
+     "commence": "2026-11-24T03:10:00Z",
+     "spread": 1.5,
+     "total": 6.0,
+     "ml_home": 170,
+     "ml_away": -197,
+     "books": 9,
+     "spread_range": [
+      1.5,
+      1.5
+     ],
+     "best_home": {
+      "price": 175.0,
+      "book": "BetRivers"
+     },
+     "best_away": {
+      "price": -195.0,
+      "book": "BetUS"
+     },
+     "open_spread": 1.5,
+     "open_total": 6.0,
+     "open_seen": "2026-11-23T12:59+00:00",
+     "move_spread": 0.0,
+     "move_total": 0.0,
+     "day_spread": null,
+     "day_total": null,
+     "prob_home": 0.358,
+     "prob_away": 0.642
+    }
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 9.5,
+   "id": "oa:ab91c66dfce2e452eb546cde1cf61879",
+   "home": "UCLA Bruins",
+   "away": "USC Trojans",
+   "commence": "2026-11-28T20:30:00Z",
+   "spread": 6.5,
+   "total": 46.0,
+   "ml_home": 195,
+   "ml_away": -240,
+   "books": 9,
+   "spread_range": [
+    6.5,
+    6.5
+   ],
+   "best_home": {
+    "price": 200.0,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "price": -235.0,
+    "book": "FanDuel"
+   },
+   "open_spread": -3.0,
+   "open_total": 52.0,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": 9.5,
+   "move_total": -6.0,
+   "day_spread": -1.0,
+   "day_total": -0.5,
+   "prob_home": 0.324,
+   "prob_away": 0.676
+  },
+  {
+   "sport": "College Football",
+   "kind": "total",
+   "size": 6.0,
+   "id": "oa:ab91c66dfce2e452eb546cde1cf61879",
+   "home": "UCLA Bruins",
+   "away": "USC Trojans",
+   "commence": "2026-11-28T20:30:00Z",
+   "spread": 6.5,
+   "total": 46.0,
+   "ml_home": 195,
+   "ml_away": -240,
+   "books": 9,
+   "spread_range": [
+    6.5,
+    6.5
+   ],
+   "best_home": {
+    "price": 200.0,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "price": -235.0,
+    "book": "FanDuel"
+   },
+   "open_spread": -3.0,
+   "open_total": 52.0,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": 9.5,
+   "move_total": -6.0,
+   "day_spread": -1.0,
+   "day_total": -0.5,
+   "prob_home": 0.324,
+   "prob_away": 0.676
+  },
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 4.5,
+   "id": "oa:4c69ecf41bb2d36dfeedeae23acc5b86",
+   "home": "Texas A&M Aggies",
+   "away": "Texas Longhorns",
+   "commence": "2026-11-28T00:30:00Z",
+   "spread": 12.0,
+   "total": 40.5,
+   "ml_home": 350,
+   "ml_away": -450,
+   "books": 9,
+   "spread_range": [
+    10.5,
+    12.5
+   ],
+   "best_home": {
+    "price": 365.0,
+    "book": "Bovada"
+   },
+   "best_away": {
+    "price": -440.0,
+    "book": "DraftKings"
+   },
+   "open_spread": 7.5,
+   "open_total": 41.5,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": 4.5,
+   "move_total": -1.0,
+   "day_spread": 2.0,
+   "day_total": 1.0,
+   "prob_home": 0.214,
+   "prob_away": 0.786
+  },
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 4.5,
+   "id": "oa:735be3d0a18e8d57cc515971a6735c7d",
+   "home": "Kentucky Wildcats",
+   "away": "Louisville Cardinals",
+   "commence": "2026-11-28T17:00:00Z",
+   "spread": 3.0,
+   "total": 54.5,
+   "ml_home": 116,
+   "ml_away": -140,
+   "books": 9,
+   "spread_range": [
+    2.0,
+    3.0
+   ],
+   "best_home": {
+    "price": 120.0,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "price": -129.0,
+    "book": "BetRivers"
+   },
+   "open_spread": -1.5,
+   "open_total": 55.0,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": 4.5,
+   "move_total": -0.5,
+   "day_spread": 1.5,
+   "day_total": -1.0,
+   "prob_home": 0.442,
+   "prob_away": 0.558
+  },
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 4.5,
+   "id": "oa:c58a68d46da0d0748169156702f9b4d5",
+   "home": "Syracuse Orange",
+   "away": "Notre Dame Fighting Irish",
+   "commence": "2026-11-28T17:00:00Z",
+   "spread": 24.5,
+   "total": 53.0,
+   "ml_home": 1300,
+   "ml_away": -2800,
+   "books": 9,
+   "spread_range": [
+    24.5,
+    25.5
+   ],
+   "best_home": {
+    "price": 1450.0,
+    "book": "BetMGM"
+   },
+   "best_away": {
+    "price": -2500.0,
+    "book": "BetMGM"
+   },
+   "open_spread": 20.0,
+   "open_total": 55.0,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": 4.5,
+   "move_total": -2.0,
+   "day_spread": -1.0,
+   "day_total": 0.5,
+   "prob_home": 0.069,
+   "prob_away": 0.931
+  },
+  {
+   "sport": "NFL",
+   "kind": "spread",
+   "size": 4.0,
+   "id": "oa:c64ceba13ede564e8658693e3171e7f9",
+   "home": "Los Angeles Chargers",
+   "away": "New England Patriots",
+   "commence": "2026-11-29T21:05:00Z",
+   "spread": -1.0,
+   "total": 36.5,
+   "ml_home": -117,
+   "ml_away": -103,
+   "books": 9,
+   "spread_range": [
+    -1.5,
+    -1.0
+   ],
+   "best_home": {
+    "price": -112.0,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "price": 102.0,
+    "book": "DraftKings"
+   },
+   "open_spread": -5.0,
+   "open_total": 40.0,
+   "open_seen": "2026-11-18T12:56+00:00",
+   "move_spread": 4.0,
+   "move_total": -3.5,
+   "day_spread": 2.5,
+   "day_total": -2.5,
+   "prob_home": 0.515,
+   "prob_away": 0.485
+  },
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 4.0,
+   "id": "oa:4a15b4432ef52d1717887e5badfdc0e3",
+   "home": "Wake Forest Demon Deacons",
+   "away": "Duke Blue Devils",
+   "commence": "2026-11-28T20:30:00Z",
+   "spread": -14.5,
+   "total": 55.5,
+   "ml_home": -625,
+   "ml_away": 460,
+   "books": 9,
+   "spread_range": [
+    -14.5,
+    -13.5
+   ],
+   "best_home": {
+    "price": -625.0,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "price": 475.0,
+    "book": "BetMGM"
+   },
+   "open_spread": -10.5,
+   "open_total": 53.0,
+   "open_seen": "2026-11-19T12:58+00:00",
+   "move_spread": -4.0,
+   "move_total": 2.5,
+   "day_spread": -1.0,
+   "day_total": 0.0,
+   "prob_home": 0.828,
+   "prob_away": 0.172
+  },
+  {
+   "sport": "NFL",
+   "kind": "total",
+   "size": 3.5,
+   "id": "oa:3a60ed1d20004aa4d4772b2c1a2272e7",
+   "home": "Washington Commanders",
+   "away": "Cincinnati Bengals",
+   "commence": "2026-11-24T01:15:00Z",
+   "spread": 6.0,
+   "total": 54.5,
+   "ml_home": 240,
+   "ml_away": -295,
+   "books": 9,
+   "spread_range": [
+    5.5,
+    6.0
+   ],
+   "best_home": {
+    "price": 250.0,
+    "book": "BetUS"
+   },
+   "best_away": {
+    "price": -283.0,
+    "book": "MyBookie.ag"
+   },
+   "open_spread": 4.0,
+   "open_total": 51.0,
+   "open_seen": "2026-11-11T12:52+00:00",
+   "move_spread": 2.0,
+   "move_total": 3.5,
+   "day_spread": 0.0,
+   "day_total": -0.5,
+   "prob_home": 0.283,
+   "prob_away": 0.717
+  },
+  {
+   "sport": "NFL",
+   "kind": "total",
+   "size": 3.5,
+   "id": "oa:c64ceba13ede564e8658693e3171e7f9",
+   "home": "Los Angeles Chargers",
+   "away": "New England Patriots",
+   "commence": "2026-11-29T21:05:00Z",
+   "spread": -1.0,
+   "total": 36.5,
+   "ml_home": -117,
+   "ml_away": -103,
+   "books": 9,
+   "spread_range": [
+    -1.5,
+    -1.0
+   ],
+   "best_home": {
+    "price": -112.0,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "price": 102.0,
+    "book": "DraftKings"
+   },
+   "open_spread": -5.0,
+   "open_total": 40.0,
+   "open_seen": "2026-11-18T12:56+00:00",
+   "move_spread": 4.0,
+   "move_total": -3.5,
+   "day_spread": 2.5,
+   "day_total": -2.5,
+   "prob_home": 0.515,
+   "prob_away": 0.485
+  },
+  {
+   "sport": "NFL",
+   "kind": "total",
+   "size": 3.0,
+   "id": "oa:44a3bcf5bd002583ddef2207a92dd977",
+   "home": "Pittsburgh Steelers",
+   "away": "Denver Broncos",
+   "commence": "2026-11-27T20:00:00Z",
+   "spread": 3.0,
+   "total": 38.0,
+   "ml_home": 128,
+   "ml_away": -148,
+   "books": 9,
+   "spread_range": [
+    2.5,
+    3.0
+   ],
+   "best_home": {
+    "price": 132.0,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "price": -145.0,
+    "book": "BetMGM"
+   },
+   "open_spread": 1.5,
+   "open_total": 41.0,
+   "open_seen": "2026-11-18T12:56+00:00",
+   "move_spread": 1.5,
+   "move_total": -3.0,
+   "day_spread": 0.5,
+   "day_total": -2.5,
+   "prob_home": 0.424,
+   "prob_away": 0.576
+  },
+  {
+   "sport": "College Football",
+   "kind": "spread",
+   "size": 3.0,
+   "id": "oa:e0b30f1dada22d4a2565ce663bc0741a",
+   "home": "Akron Zips",
+   "away": "Buffalo Bulls",
+   "commence": "2026-11-27T17:00:00Z",
+   "spread": 7.5,
+   "total": 50.5,
+   "ml_home": 250,
+   "ml_away": -300,
+   "books": 9,
+   "spread_range": [
+    7.5,
+    8.0
+   ],
+   "best_home": {
+    "price": 260.0,
+    "book": "BetRivers"
+   },
+   "best_away": {
+    "price": -300.0,
+    "book": "FanDuel"
+   },
+   "open_spread": 10.5,
+   "open_total": 48.5,
+   "open_seen": "2026-11-20T12:54+00:00",
+   "move_spread": -3.0,
+   "move_total": 2.0,
+   "day_spread": -2.5,
+   "day_total": 1.0,
+   "prob_home": 0.276,
+   "prob_away": 0.724
+  },
+  {
+   "sport": "NFL",
+   "kind": "spread",
+   "size": 2.5,
+   "id": "oa:e9da808e36e1b7475698a57465ad4519",
+   "home": "Indianapolis Colts",
+   "away": "New York Giants",
+   "commence": "2026-11-29T18:00:00Z",
+   "spread": 6.5,
+   "total": 41.5,
+   "ml_home": 253,
+   "ml_away": -310,
+   "books": 9,
+   "spread_range": [
+    6.5,
+    7.0
+   ],
+   "best_home": {
+    "price": 270.0,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "price": -300.0,
+    "book": "BetMGM"
+   },
+   "open_spread": 4.0,
+   "open_total": 44.0,
+   "open_seen": "2026-11-18T12:56+00:00",
+   "move_spread": 2.5,
+   "move_total": -2.5,
+   "day_spread": 0.0,
+   "day_total": -2.0,
+   "prob_home": 0.273,
+   "prob_away": 0.727
+  }
+ ],
+ "sources": [
+  "odds_api"
+ ]
+}
