@@ -26,6 +26,33 @@
    "total": 6.5
   }
  },
+ "oa:155fbdda10b6474a41649023baadfdf3": {
+  "away": "Vegas Golden Knights",
+  "commence": "2026-11-25T01:00:00Z",
+  "current": {
+   "ml_away": -117,
+   "ml_home": -102,
+   "spread": 1.5,
+   "total": 6.5
+  },
+  "history": [
+   {
+    "day": "2026-11-24",
+    "ml_away": -117,
+    "ml_home": -102,
+    "spread": 1.5,
+    "total": 6.5
+   }
+  ],
+  "home": "Edmonton Oilers",
+  "open": {
+   "ml_away": -117,
+   "ml_home": -102,
+   "seen": "2026-11-24T12:59+00:00",
+   "spread": 1.5,
+   "total": 6.5
+  }
+ },
  "oa:2c807988a077495f0a1349ddd3ab6936": {
   "away": "Anaheim Ducks",
   "commence": "2026-11-22T02:00:00Z",
