@@ -3,10 +3,10 @@
   "away": "Jacksonville Jaguars",
   "commence": "2026-12-06T18:00:00Z",
   "current": {
-   "ml_away": 120,
-   "ml_home": -148,
-   "spread": -2.5,
-   "total": 50.5
+   "ml_away": 133,
+   "ml_home": -158,
+   "spread": -3.0,
+   "total": 50.0
   },
   "history": [
    {
@@ -29,6 +29,13 @@
     "ml_home": -148,
     "spread": -2.5,
     "total": 50.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 133,
+    "ml_home": -158,
+    "spread": -3.0,
+    "total": 50.0
    }
   ],
   "home": "Chicago Bears",
@@ -44,10 +51,10 @@
   "away": "Kansas City Chiefs",
   "commence": "2026-12-04T01:15:00Z",
   "current": {
-   "ml_away": -110,
-   "ml_home": -109,
-   "spread": 0.0,
-   "total": 44.5
+   "ml_away": -111,
+   "ml_home": -108,
+   "spread": 1.5,
+   "total": 44.0
   },
   "history": [
    {
@@ -70,6 +77,13 @@
     "ml_home": -109,
     "spread": 0.0,
     "total": 44.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -111,
+    "ml_home": -108,
+    "spread": 1.5,
+    "total": 44.0
    }
   ],
   "home": "Los Angeles Rams",
@@ -88,7 +102,7 @@
    "ml_away": 235,
    "ml_home": -295,
    "spread": -6.0,
-   "total": 50.5
+   "total": 51.0
   },
   "history": [
    {
@@ -111,6 +125,13 @@
     "ml_home": -295,
     "spread": -6.0,
     "total": 50.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 235,
+    "ml_home": -295,
+    "spread": -6.0,
+    "total": 51.0
    }
   ],
   "home": "Seattle Seahawks",
@@ -148,6 +169,13 @@
    },
    {
     "day": "2026-11-27",
+    "ml_away": -230,
+    "ml_home": 190,
+    "spread": 5.5,
+    "total": 45.5
+   },
+   {
+    "day": "2026-11-28",
     "ml_away": -230,
     "ml_home": 190,
     "spread": 5.5,
@@ -208,8 +236,8 @@
   "away": "Carolina Panthers",
   "commence": "2026-12-01T01:15:00Z",
   "current": {
-   "ml_away": 136,
-   "ml_home": -161,
+   "ml_away": 138,
+   "ml_home": -162,
    "spread": -3.0,
    "total": 43.5
   },
@@ -283,6 +311,13 @@
     "ml_home": -161,
     "spread": -3.0,
     "total": 43.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 138,
+    "ml_home": -162,
+    "spread": -3.0,
+    "total": 43.5
    }
   ],
   "home": "Tampa Bay Buccaneers",
@@ -298,9 +333,9 @@
   "away": "Buffalo Bills",
   "commence": "2026-12-06T21:25:00Z",
   "current": {
-   "ml_away": -790,
-   "ml_home": 557,
-   "spread": 12.5,
+   "ml_away": -835,
+   "ml_home": 554,
+   "spread": 13.5,
    "total": 44.5
   },
   "history": [
@@ -323,6 +358,13 @@
     "ml_away": -790,
     "ml_home": 557,
     "spread": 12.5,
+    "total": 44.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -835,
+    "ml_home": 554,
+    "spread": 13.5,
     "total": 44.5
    }
   ],
@@ -507,7 +549,7 @@
   "current": {
    "ml_away": -240,
    "ml_home": 200,
-   "spread": 5.0,
+   "spread": 5.5,
    "total": 40.0
   },
   "history": [
@@ -580,6 +622,13 @@
     "ml_home": 200,
     "spread": 5.0,
     "total": 40.0
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -240,
+    "ml_home": 200,
+    "spread": 5.5,
+    "total": 40.0
    }
   ],
   "home": "Miami Dolphins",
@@ -596,7 +645,7 @@
   "commence": "2026-11-29T18:00:00Z",
   "current": {
    "ml_away": 250,
-   "ml_home": -305,
+   "ml_home": -310,
    "spread": -6.5,
    "total": 47.0
   },
@@ -670,6 +719,13 @@
     "ml_home": -305,
     "spread": -6.5,
     "total": 47.0
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 250,
+    "ml_home": -310,
+    "spread": -6.5,
+    "total": 47.0
    }
   ],
   "home": "Houston Texans",
@@ -685,7 +741,7 @@
   "away": "Washington Commanders",
   "commence": "2026-11-29T21:25:00Z",
   "current": {
-   "ml_away": -330,
+   "ml_away": -335,
    "ml_home": 270,
    "spread": 6.5,
    "total": 41.5
@@ -757,6 +813,13 @@
    {
     "day": "2026-11-27",
     "ml_away": -330,
+    "ml_home": 270,
+    "spread": 6.5,
+    "total": 41.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -335,
     "ml_home": 270,
     "spread": 6.5,
     "total": 41.5
@@ -850,6 +913,13 @@
     "ml_home": -325,
     "spread": -7.0,
     "total": 41.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 260,
+    "ml_home": -325,
+    "spread": -7.0,
+    "total": 41.5
    }
   ],
   "home": "Minnesota Vikings",
@@ -865,10 +935,10 @@
   "away": "Tennessee Titans",
   "commence": "2026-11-29T18:00:00Z",
   "current": {
-   "ml_away": 709,
-   "ml_home": -1100,
-   "spread": -14.5,
-   "total": 49.5
+   "ml_away": 661,
+   "ml_home": -1000,
+   "spread": -14.0,
+   "total": 48.0
   },
   "history": [
    {
@@ -940,6 +1010,13 @@
     "ml_home": -1100,
     "spread": -14.5,
     "total": 49.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 661,
+    "ml_home": -1000,
+    "spread": -14.0,
+    "total": 48.0
    }
   ],
   "home": "Jacksonville Jaguars",
@@ -1123,7 +1200,7 @@
    "ml_away": -225,
    "ml_home": 180,
    "spread": 4.5,
-   "total": 46.5
+   "total": 47.0
   },
   "history": [
    {
@@ -1146,6 +1223,13 @@
     "ml_home": 180,
     "spread": 4.5,
     "total": 46.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -225,
+    "ml_home": 180,
+    "spread": 4.5,
+    "total": 47.0
    }
   ],
   "home": "Tennessee Titans",
@@ -1183,6 +1267,13 @@
    },
    {
     "day": "2026-11-27",
+    "ml_away": -245,
+    "ml_home": 200,
+    "spread": 5.0,
+    "total": 46.5
+   },
+   {
+    "day": "2026-11-28",
     "ml_away": -245,
     "ml_home": 200,
     "spread": 5.0,
@@ -1228,6 +1319,13 @@
     "ml_home": -230,
     "spread": -5.0,
     "total": 42.0
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 190,
+    "ml_home": -230,
+    "spread": -5.0,
+    "total": 42.0
    }
   ],
   "home": "Minnesota Vikings",
@@ -1243,10 +1341,10 @@
   "away": "New England Patriots",
   "commence": "2026-11-29T21:05:00Z",
   "current": {
-   "ml_away": -135,
-   "ml_home": 115,
-   "spread": 2.0,
-   "total": 35.5
+   "ml_away": -155,
+   "ml_home": 134,
+   "spread": 3.0,
+   "total": 35.0
   },
   "history": [
    {
@@ -1318,6 +1416,13 @@
     "ml_home": 115,
     "spread": 2.0,
     "total": 35.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -155,
+    "ml_home": 134,
+    "spread": 3.0,
+    "total": 35.0
    }
   ],
   "home": "Los Angeles Chargers",
@@ -1333,8 +1438,8 @@
   "away": "Detroit Lions",
   "commence": "2026-12-06T18:00:00Z",
   "current": {
-   "ml_away": -200,
-   "ml_home": 165,
+   "ml_away": -201,
+   "ml_home": 168,
    "spread": 3.5,
    "total": 50.5
   },
@@ -1359,6 +1464,13 @@
     "ml_home": 165,
     "spread": 3.5,
     "total": 50.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -201,
+    "ml_home": 168,
+    "spread": 3.5,
+    "total": 50.5
    }
   ],
   "home": "Atlanta Falcons",
@@ -1374,10 +1486,10 @@
   "away": "Seattle Seahawks",
   "commence": "2026-11-29T21:25:00Z",
   "current": {
-   "ml_away": 127,
-   "ml_home": -149,
-   "spread": -3.0,
-   "total": 43.5
+   "ml_away": -121,
+   "ml_home": 101,
+   "spread": 1.5,
+   "total": 42.5
   },
   "history": [
    {
@@ -1449,6 +1561,13 @@
     "ml_home": -149,
     "spread": -3.0,
     "total": 43.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -121,
+    "ml_home": 101,
+    "spread": 1.5,
+    "total": 42.5
    }
   ],
   "home": "San Francisco 49ers",
@@ -1464,9 +1583,9 @@
   "away": "New York Giants",
   "commence": "2026-11-29T18:00:00Z",
   "current": {
-   "ml_away": -280,
-   "ml_home": 230,
-   "spread": 6.0,
+   "ml_away": -252,
+   "ml_home": 210,
+   "spread": 5.5,
    "total": 41.5
   },
   "history": [
@@ -1539,6 +1658,13 @@
     "ml_home": 230,
     "spread": 6.0,
     "total": 41.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -252,
+    "ml_home": 210,
+    "spread": 5.5,
+    "total": 41.5
    }
   ],
   "home": "Indianapolis Colts",
@@ -1554,10 +1680,10 @@
   "away": "Las Vegas Raiders",
   "commence": "2026-11-30T01:20:00Z",
   "current": {
-   "ml_away": 195,
+   "ml_away": 190,
    "ml_home": -233,
    "spread": -4.5,
-   "total": 40.0
+   "total": 39.0
   },
   "history": [
    {
@@ -1629,6 +1755,13 @@
     "ml_home": -233,
     "spread": -4.5,
     "total": 40.0
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 190,
+    "ml_home": -233,
+    "spread": -4.5,
+    "total": 39.0
    }
   ],
   "home": "Cleveland Browns",
@@ -1730,7 +1863,7 @@
    "ml_away": -174,
    "ml_home": 146,
    "spread": 3.5,
-   "total": 37.5
+   "total": 37.0
   },
   "history": [
    {
@@ -1753,6 +1886,13 @@
     "ml_home": 146,
     "spread": 3.5,
     "total": 37.5
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": -174,
+    "ml_home": 146,
+    "spread": 3.5,
+    "total": 37.0
    }
   ],
   "home": "Arizona Cardinals",
@@ -1769,9 +1909,9 @@
   "commence": "2026-11-29T18:00:00Z",
   "current": {
    "ml_away": 425,
-   "ml_home": -570,
+   "ml_home": -560,
    "spread": -10.0,
-   "total": 49.0
+   "total": 48.5
   },
   "history": [
    {
@@ -1843,6 +1983,13 @@
     "ml_home": -570,
     "spread": -10.0,
     "total": 49.0
+   },
+   {
+    "day": "2026-11-28",
+    "ml_away": 425,
+    "ml_home": -560,
+    "spread": -10.0,
+    "total": 48.5
    }
   ],
   "home": "Cincinnati Bengals",
@@ -1880,6 +2027,13 @@
    },
    {
     "day": "2026-11-27",
+    "ml_away": 215,
+    "ml_home": -265,
+    "spread": -5.5,
+    "total": 40.5
+   },
+   {
+    "day": "2026-11-28",
     "ml_away": 215,
     "ml_home": -265,
     "spread": -5.5,
